@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/MatchHar/My-T-App/security/advisories/new
+    about: Report vulnerabilities privately. Never post credentials or vehicle data.
+  - name: My T support
+    url: https://my-t-privacy-policy.pages.dev/support/
+    about: App Store, privacy, and general support.

@@ -1,0 +1,55 @@
+name: My T setup or documentation problem
+description: Report a reproducible problem without private vehicle data
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include credentials, VINs, locations, server addresses, `.env`, raw logs, or database exports.
+  - type: input
+    id: app-version
+    attributes:
+      label: My T version and build
+      placeholder: "For example: 3.20 (362)"
+    validations:
+      required: true
+  - type: input
+    id: server-versions
+    attributes:
+      label: TeslaMate and TeslaMateAPI versions
+      placeholder: "Use version numbers only"
+    validations:
+      required: true
+  - type: dropdown
+    id: network
+    attributes:
+      label: Connection type
+      options:
+        - Trusted LAN
+        - VPN or Tailscale
+        - HTTPS reverse proxy
+        - Cloudflare Tunnel and Access
+        - Tessie
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: auth
+    attributes:
+      label: Authentication type
+      options:
+        - None on trusted LAN or VPN
+        - Basic Auth
+        - Bearer Token
+        - Cloudflare Access
+        - Tessie Access Token
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Redacted reproduction steps
+      description: State which Test Connection stage fails and any HTTP status. Remove all sensitive values.
+    validations:
+      required: true
