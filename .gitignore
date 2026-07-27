@@ -1,12 +1,21 @@
-.DS_Store
-*.env
-.env*
-*.pem
-*.key
-*.p12
+# This repository is public documentation only. Keep the private iOS project,
+# build products, signing files, credentials, and server secrets out.
+*.swift
+*.xcodeproj/
+*.xcworkspace/
+*.pbxproj
+*.xcarchive/
+*.ipa
 *.mobileprovision
-*.log
-*.dump
-*.sql
-secrets/
-private/
+*.p12
+*.cer
+*.key
+*.env
+*.env.*
+DerivedData/
+AppStore/
+MyCarMate/
+ci_scripts/
+GoogleService-Info.plist
+ExportOptions*.plist
+

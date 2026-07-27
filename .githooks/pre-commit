@@ -1,0 +1,17 @@
+#!/bin/sh
+set -eu
+
+forbidden_pattern='(^|/)(MyCarMate|AppStore|ci_scripts|DerivedData)(/|$)|\.(swift|pbxproj|ipa|mobileprovision|p12|cer|key)$|\.xcodeproj/|\.xcworkspace/|(^|/)\.env(\.|$)|(^|/)GoogleService-Info\.plist$|(^|/)ExportOptions[^/]*\.plist$'
+
+blocked=$(
+  git diff --cached --name-only --diff-filter=ACMR |
+    grep -E "$forbidden_pattern" || true
+)
+
+if [ -n "$blocked" ]; then
+  echo "Commit blocked: My-T-App is public documentation only."
+  echo "Private app/build/signing paths detected:"
+  echo "$blocked"
+  exit 1
+fi
+
