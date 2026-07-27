@@ -17,6 +17,30 @@ your own TeslaMate server.**
 This repository contains public product documentation and support material.
 **It does not contain the My T application source code.**
 
+## Built around TeslaMate
+
+[TeslaMate](https://github.com/teslamate-org/teslamate) is the foundation of
+the self-hosted My T experience. It runs on the user's own server, connects to
+the vehicle, records states, drives, charging sessions, positions, and
+efficiency data, and keeps that history in the user's PostgreSQL database.
+
+My T turns that TeslaMate history into an iPhone experience with an overview,
+searchable trips, charging analysis, daily timelines, maps, and route replay.
+It does not replace TeslaMate, operate a separate Tesla account connection, or
+move the user's TeslaMate history into a My T cloud.
+
+The three projects have different roles:
+
+| Component | Role |
+| --- | --- |
+| [TeslaMate](https://github.com/teslamate-org/teslamate) | Primary self-hosted data collector and source of truth |
+| [TeslaMateAPI](https://github.com/tobiasehlert/teslamateapi) | JSON bridge used by My T to read normal TeslaMate data |
+| [My T Parking Monitor](https://github.com/MatchHar/My-T-Parking-Monitor) | Optional read-only enhancement for detailed parking and live-drive history |
+
+New users should deploy and verify TeslaMate first by following its
+[official documentation](https://docs.teslamate.org/), then add TeslaMateAPI,
+connect My T, and only afterward consider the optional Parking Monitor.
+
 ## What My T does
 
 - Presents vehicle status, battery, rated range, location, and parking duration.
@@ -29,10 +53,7 @@ This repository contains public product documentation and support material.
 - Also supports Tessie as a separate optional data source.
 - Stores connection credentials in the iOS Keychain.
 
-My T does not replace TeslaMate. TeslaMate remains responsible for collecting
-and retaining vehicle data.
-
-## Data architecture
+## How My T works with TeslaMate
 
 ```text
 Vehicle → TeslaMate → PostgreSQL

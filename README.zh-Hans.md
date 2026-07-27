@@ -16,6 +16,27 @@
 本仓库只包含公开的产品介绍、部署文档和支持资料，**不包含 My T App
 源代码**。
 
+## My T 以 TeslaMate 为核心
+
+[TeslaMate](https://github.com/teslamate-org/teslamate) 是 My T 自建服务
+体验的基础。它运行在用户自己的服务器上，负责连接车辆、记录车辆状态、行程、
+充电、位置和能耗数据，并将历史保存在用户自己的 PostgreSQL 数据库。
+
+My T 把 TeslaMate 保存的这些数据整理成适合 iPhone 使用的概览、可搜索行程、
+充电分析、每日时间线、地图和路线回放。My T 不会替代 TeslaMate，不会另行连接
+用户的 Tesla 账号，也不会把 TeslaMate 车辆历史转移到 My T 运营的云端。
+
+三个项目分工不同：
+
+| 组件 | 作用 |
+| --- | --- |
+| [TeslaMate](https://github.com/teslamate-org/teslamate) | 主要的自建数据采集器和唯一数据来源 |
+| [TeslaMateAPI](https://github.com/tobiasehlert/teslamateapi) | 将普通 TeslaMate 数据以 JSON 提供给 My T 的连接层 |
+| [My T Parking Monitor](https://github.com/MatchHar/My-T-Parking-Monitor) | 选装的只读停车及正在行驶历史增强组件 |
+
+新用户应先按照 [TeslaMate 官方文档](https://docs.teslamate.org/) 部署并验证
+TeslaMate，再安装 TeslaMateAPI、连接 My T，最后按需要选装 Parking Monitor。
+
 ## My T 可以做什么
 
 - 查看车辆状态、电量、额定续航、位置和停车时长。
@@ -26,9 +47,7 @@
 - 也可将 Tessie 作为另一种独立数据源。
 - 连接凭证保存在 iOS Keychain。
 
-My T 不能替代 TeslaMate。车辆数据的采集与历史保存始终由 TeslaMate 负责。
-
-## 数据架构
+## My T 如何配合 TeslaMate
 
 ```text
 车辆 → TeslaMate → PostgreSQL
