@@ -13,6 +13,10 @@
 [技術支援](SUPPORT.md) ·
 [隱私說明](PRIVACY.md)
 
+> **功能可用性：**App Store 目前提供 My T 3.10。本頁所述的停車監控
+> 整合正在為後續 My T 版本準備，尚未包含於公開的 App Store 版本。詳情請參閱
+> [功能可用性說明](docs/FEATURE_AVAILABILITY.md)。
+
 本倉庫只包含公開的產品介紹、部署文件及支援資料，**不包含 My T App
 原始碼**。
 
@@ -112,5 +116,6 @@ My T 是獨立第三方應用程式，與 Tesla, Inc.、TeslaMate 專案及 Tesl
 - 請勿在 Issue 中提交 API Token、密碼、Cloudflare Secret、VIN、座標、
   `.env`、原始日誌或資料庫匯出。
 - 安全問題請依照 [SECURITY.md](SECURITY.md) 私下回報。
+- 文件貢獻請遵循 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 Copyright © 2026 My T。文件與產品素材使用條款見 [LICENSE.md](LICENSE.md)。

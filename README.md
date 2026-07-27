@@ -14,6 +14,11 @@ your own TeslaMate server.**
 [Support](SUPPORT.md) ·
 [Privacy](PRIVACY.md)
 
+> **Feature availability:** the App Store currently distributes My T 3.10.
+> Parking Monitor integration described here is being prepared for a later
+> My T release and is not yet part of the public App Store build. See
+> [feature availability](docs/FEATURE_AVAILABILITY.md).
+
 This repository contains public product documentation and support material.
 **It does not contain the My T application source code.**
 
@@ -132,6 +137,7 @@ their respective owners.
 - Do not post API tokens, passwords, Cloudflare secrets, VINs, coordinates,
   `.env` files, raw logs, or database exports in public issues.
 - Security reports must follow [SECURITY.md](SECURITY.md).
+- Documentation contributions should follow [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Copyright © 2026 My T. Documentation and product assets are provided under the
 terms in [LICENSE.md](LICENSE.md).
