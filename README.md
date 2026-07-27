@@ -9,7 +9,7 @@
 **My T is an independent iPhone client for viewing and understanding data from
 your own TeslaMate server.**
 
-[Download My T on the App Store](https://apps.apple.com/app/id6780299502) ·
+[Download My T on the App Store](https://apps.apple.com/cn/app/my-t/id6780299502) ·
 [Setup guide](docs/SETUP.md) ·
 [Support](SUPPORT.md) ·
 [Privacy](PRIVACY.md)
