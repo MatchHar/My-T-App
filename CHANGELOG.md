@@ -2,7 +2,8 @@
 
 ## Unreleased
 
-- Updated Parking Monitor compatibility to the published 1.5.0 release.
+- Updated Parking Monitor compatibility to the published 1.5.1 security
+  maintenance release.
 - Documented the privacy boundary for optional native software-update
   notifications and the minimal data handled by the delivery relay.
 - Clarified that the 1.5.0 notification service remains inactive until a
