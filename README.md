@@ -75,8 +75,9 @@ information; that endpoint is not required for normal vehicle data.
 
 [My T Parking Monitor](https://github.com/MatchHar/My-T-Parking-Monitor) is an
 optional server component for genuine long-term parking sleep/wake history,
-battery/range observations, and reliable current-drive trajectories. Basic My T
-features continue to work without it.
+battery/range observations, reliable current-drive trajectories, and charging
+Live Activity updates while the App is not open. Basic My T features continue
+to work without it.
 
 ## Screenshots
 

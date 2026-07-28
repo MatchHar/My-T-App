@@ -1,13 +1,13 @@
 # Compatibility
 
-Last verified: **2026-07-27**
+Last verified: **2026-07-28**
 
 | Component | Verified state | Notes |
 | --- | --- | --- |
 | My T | iPhone, iOS 18+ | iPad is not a documented target |
 | TeslaMateAPI | `1.25.0` | Main TeslaMate data interface |
 | TeslaMate | `4.0.1` on the validation server | Vehicle data still reaches My T through TeslaMateAPI |
-| My T Parking Monitor | public release `1.5.1` | Optional progressive enhancement; push remains off until paired by a compatible My T build |
+| My T Parking Monitor | public release `1.6.0` | Adds optional remote charging Live Activities; push remains off until paired by a compatible My T build |
 | Authentication | None on trusted LAN/VPN; Basic; Bearer; Cloudflare Access | Public HTTP without authentication is unsupported |
 | Network | LAN, Tailscale/VPN, HTTPS reverse proxy, Cloudflare Tunnel | API root URL required |
 

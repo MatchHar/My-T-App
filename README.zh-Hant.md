@@ -67,8 +67,9 @@ TeslaMate，再安裝 TeslaMateAPI、連線 My T，最後按需要選裝 Parking
 介面。
 
 [My T Parking Monitor](https://github.com/MatchHar/My-T-Parking-Monitor)
-是選裝伺服器元件，用於真實的長期停車休眠/喚醒歷史、電量/續航觀測及可靠的
-正在行駛軌跡。未安裝時，My T 基礎功能仍可正常使用。
+是選裝伺服器元件，用於真實的長期停車休眠/喚醒歷史、電量/續航觀測、可靠的
+正在行駛軌跡，以及 App 未開啟時的充電鎖定畫面即時動態更新。未安裝時，My T
+基礎功能仍可正常使用。
 
 ## 介面預覽
 
