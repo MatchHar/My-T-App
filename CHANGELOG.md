@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- Updated Parking Monitor compatibility to 1.6.0 and documented optional
+- Updated Parking Monitor compatibility to 1.6.1 and documented optional
   charging Live Activities using genuine TeslaMate MQTT readings.
 - Updated Parking Monitor compatibility to the published 1.5.1 security
   maintenance release.
