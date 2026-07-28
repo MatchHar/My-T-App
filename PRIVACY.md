@@ -28,9 +28,9 @@ account so their devices can restore the setup. Vehicle drives, charges, GPS
 history, and TeslaMate database contents are not copied into that configuration
 backup.
 
-## Optional Parking Monitor
+## Optional My T Companion
 
-My T Parking Monitor runs on the user's TeslaMate host. It reads the existing
+My T Companion runs on the user's TeslaMate host. It reads the existing
 PostgreSQL database in read-only mode and returns requested data directly to My
 T through the user's own secured endpoint. It does not operate a second vehicle
 history store.
@@ -42,7 +42,7 @@ version, Apple Push Notification service requires an App-operated delivery
 relay. The relay stores the APNs device token and an opaque installation
 identifier needed to address that installation.
 
-The user's Parking Monitor sends only a signed software-update event: the
+The user's My T Companion sends only a signed software-update event: the
 opaque installation ID, TeslaMate car ID or display label, reported update
 type/version, and observation time. It does **not** send VIN, location,
 TeslaMate credentials, database passwords, battery data, routes, charging
@@ -50,7 +50,7 @@ history, or driving history.
 
 ## Optional charging Live Activities
 
-When a compatible My T build and Parking Monitor 1.6.1 are paired, the same
+When a compatible My T build and My T Companion 1.8.0 are paired, the same
 delivery relay can start and update a Lock Screen or Dynamic Island charging
 Live Activity while the App is not open. The minimal signed event can contain
 the opaque installation ID, car ID or display label, charging session ID,

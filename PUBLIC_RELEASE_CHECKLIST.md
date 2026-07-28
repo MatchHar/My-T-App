@@ -11,9 +11,9 @@ contain the private My T application source code.
 - [ ] Scan files and Git history for credentials, signing material, private
       infrastructure, VINs, coordinates, logs, and personal account data.
 - [ ] Verify English, Simplified Chinese, and Traditional Chinese navigation.
-- [ ] Verify TeslaMate, TeslaMateAPI, My T Parking Monitor, App Store, privacy,
+- [ ] Verify TeslaMate, TeslaMateAPI, My T Companion, App Store, privacy,
       security, support, and license links.
-- [ ] Confirm the Parking Monitor repository remains clearly marked optional
+- [ ] Confirm the My T Companion repository remains clearly marked optional
       and does not claim support in an unreleased App Store build.
 - [ ] Confirm no app source, provisioning profile, certificate, archive,
       internal build file, or private server configuration is tracked.

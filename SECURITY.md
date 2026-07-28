@@ -3,7 +3,7 @@
 ## Scope
 
 Security reports may cover My T's documented server connection behavior,
-credential handling, public documentation, or the optional Parking Monitor.
+credential handling, public documentation, or the optional My T Companion.
 The App source code is private and is not part of this repository.
 
 ## Reporting
@@ -15,7 +15,7 @@ unredacted vehicle data.
 
 Include:
 
-- affected My T/Parking Monitor version;
+- affected My T/My T Companion version;
 - iOS and server component versions;
 - network/authentication type;
 - minimal redacted reproduction steps;

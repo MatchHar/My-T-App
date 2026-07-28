@@ -36,10 +36,10 @@ My T 將 TeslaMate 儲存的資料整理成適合 iPhone 使用的概覽、可�
 | --- | --- |
 | [TeslaMate](https://github.com/teslamate-org/teslamate) | 主要的自建資料採集器及唯一資料來源 |
 | [TeslaMateAPI](https://github.com/tobiasehlert/teslamateapi) | 將一般 TeslaMate 資料以 JSON 提供給 My T 的連線層 |
-| [My T Parking Monitor](https://github.com/MatchHar/My-T-Parking-Monitor) | 選裝的唯讀停車及正在行駛歷史增強元件 |
+| [My T 擴充服務](https://github.com/MatchHar/My-T-Companion) | 選裝的唯讀擴充：長期停車、真實行駛軌跡、充電／導航即時動態及車輛軟體通知 |
 
 新使用者應先依照 [TeslaMate 官方文件](https://docs.teslamate.org/) 部署並驗證
-TeslaMate，再安裝 TeslaMateAPI、連線 My T，最後按需要選裝 Parking Monitor。
+TeslaMate，再安裝 TeslaMateAPI、連線 My T，最後按需要選裝 My T 擴充服務。
 
 ## My T 可以做什麼
 
@@ -58,7 +58,7 @@ TeslaMate，再安裝 TeslaMateAPI、連線 My T，最後按需要選裝 Parking
                        │
                        ├─ TeslaMateAPI → My T
                        │
-                       └─ My T Parking Monitor（選裝、唯讀）→ My T
+                       └─ My T 擴充服務（選裝、唯讀）→ My T
 ```
 
 一般車輛、行程、充電及統計資料透過
@@ -66,7 +66,7 @@ TeslaMate，再安裝 TeslaMateAPI、連線 My T，最後按需要選裝 Parking
 可能選擇性存取 TeslaMate 網頁介面以顯示伺服器版本；一般車輛資料不依賴網頁
 介面。
 
-[My T Parking Monitor](https://github.com/MatchHar/My-T-Parking-Monitor)
+[My T 擴充服務](https://github.com/MatchHar/My-T-Companion)
 是選裝伺服器元件，用於真實的長期停車休眠/喚醒歷史、電量/續航觀測、可靠的
 正在行駛軌跡，以及 App 未開啟時的充電鎖定畫面即時動態更新。未安裝時，My T
 基礎功能仍可正常使用。
@@ -101,7 +101,7 @@ My T 目前已驗證 TeslaMateAPI `1.25.0`。上游專案升級後相容性可�
 3. 在 My T 開啟「設定 → 管理連線 → TeslaMate 伺服器」。
 4. 填寫 API 根位址及相應驗證方式。
 5. 執行「測試連線」並選擇車輛。
-6. 一般連線成功後，再按需要選裝 My T Parking Monitor。
+6. 一般連線成功後，再按需要選裝 My T 擴充服務。
 
 切勿將 TeslaMate、PostgreSQL、MQTT、Grafana 或無驗證 API 直接暴露至公網。
 請閱讀[完整部署指南](docs/SETUP.zh-Hant.md)。

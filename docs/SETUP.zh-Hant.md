@@ -105,10 +105,10 @@ API 位址應填寫根位址：
 My T 可能存取 TeslaMate 網頁以顯示已安裝版本。這不是一般車輛資料來源。無法
 顯示 TeslaMate 版本時，只要 API 測試通過，車輛功能仍然正常。
 
-## 七、選裝 My T Parking Monitor
+## 七、選裝 My T 擴充服務
 
 一般 TeslaMateAPI 連線成功後，才考慮安裝
-[My T Parking Monitor](https://github.com/MatchHar/My-T-Parking-Monitor)。
+[My T 擴充服務](https://github.com/MatchHar/My-T-Companion)。
 
 它補充真實的長期停車狀態歷史及可靠的正在行駛軌跡，並且：
 
@@ -132,7 +132,7 @@ My T 基礎功能不受影響。
 | 404 | API 根位址、反向代理路徑、是否誤填 4000 |
 | 沒有車輛 | TeslaMate 登入/採集、資料庫連線、API 記錄 |
 | 無法顯示版本 | 選填網頁介面；一般 API 可能完全正常 |
-| Parking Monitor 不可用 | 同一位址的 `/api/v1/capabilities` 路由 |
+| My T 擴充服務 不可用 | 同一位址的 `/api/v1/capabilities` 路由 |
 
 求助時只提供已遮蔽的版本、HTTP 狀態碼、代理類型及重現步驟。不要提交憑證、
 VIN、座標、`.env`、原始記錄或資料庫匯出。

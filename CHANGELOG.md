@@ -2,9 +2,9 @@
 
 ## Unreleased
 
-- Updated Parking Monitor compatibility to 1.6.1 and documented optional
+- Updated My T Companion compatibility to 1.6.1 and documented optional
   charging Live Activities using genuine TeslaMate MQTT readings.
-- Updated Parking Monitor compatibility to the published 1.5.1 security
+- Updated My T Companion compatibility to the published 1.5.1 security
   maintenance release.
 - Documented the privacy boundary for optional native software-update
   notifications and the minimal data handled by the delivery relay.
@@ -13,13 +13,13 @@
 - Created the public, source-free My T product documentation repository.
 - Added English, Simplified Chinese, and Traditional Chinese product pages.
 - Added secure TeslaMate/TeslaMateAPI setup guides and troubleshooting.
-- Documented the optional My T Parking Monitor relationship.
+- Documented the optional My T Companion relationship.
 - Added privacy, security, support, compatibility, and issue-reporting rules.
-- Added a dated feature-availability notice so unpublished Parking Monitor
+- Added a dated feature-availability notice so unpublished My T Companion
   screens are not confused with the current App Store build.
 - Clarified that TeslaMate is the primary collector, TeslaMateAPI is the normal
-  JSON bridge, and My T Parking Monitor is an optional read-only enhancement.
-- Added direct App Store, TeslaMate, TeslaMateAPI, and Parking Monitor links
+  JSON bridge, and My T Companion is an optional read-only enhancement.
+- Added direct App Store, TeslaMate, TeslaMateAPI, and My T Companion links
   across the product and setup documentation.
 - Added a public-release checklist for repository settings, signed-out link
   verification, and source-code/privacy boundaries.

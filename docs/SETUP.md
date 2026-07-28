@@ -121,9 +121,9 @@ This is optional and does not provide normal vehicle data. If a remote web
 hostname is exposed, protect it with the same VPN or Access boundary. Failure
 to show the TeslaMate version does not mean the vehicle API connection failed.
 
-## 7. Optional My T Parking Monitor
+## 7. Optional My T Companion
 
-Install [My T Parking Monitor](https://github.com/MatchHar/My-T-Parking-Monitor)
+Install [My T Companion](https://github.com/MatchHar/My-T-Companion)
 only after the normal TeslaMateAPI connection works.
 
 It adds genuine long-term parking state history and reliable current-drive
@@ -149,7 +149,7 @@ optional component cannot be discovered. Basic My T features remain available.
 | HTTP 404 | API root URL, reverse-proxy path routing, wrong port 4000 |
 | No vehicles | TeslaMate login/collection, database access, API logs |
 | Version unavailable | Optional TeslaMate web endpoint; normal API may still work |
-| Parking Monitor unavailable | `/api/v1/capabilities` must route on the same base URL |
+| My T Companion unavailable | `/api/v1/capabilities` must route on the same base URL |
 
 When requesting support, provide only redacted versions, HTTP status, proxy
 type, and reproduction steps. Never provide credentials, VINs, coordinates,

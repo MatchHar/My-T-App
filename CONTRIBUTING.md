@@ -8,7 +8,7 @@ Before opening an issue or pull request:
 
 1. Remove server addresses, tokens, cookies, VINs, precise vehicle locations,
    database exports, screenshots containing personal data, and production logs.
-2. State the My T, TeslaMate, TeslaMateAPI, and optional Parking Monitor
+2. State the My T, TeslaMate, TeslaMateAPI, and optional My T Companion
    versions where relevant.
 3. Separate observed behavior from expected behavior and include minimal,
    redacted reproduction steps.

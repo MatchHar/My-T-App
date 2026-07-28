@@ -15,7 +15,7 @@ your own TeslaMate server.**
 [Privacy](PRIVACY.md)
 
 > **Feature availability:** the App Store currently distributes My T 3.10.
-> Parking Monitor integration described here is being prepared for a later
+> My T Companion integration described here is being prepared for a later
 > My T release and is not yet part of the public App Store build. See
 > [feature availability](docs/FEATURE_AVAILABILITY.md).
 
@@ -40,11 +40,11 @@ The three projects have different roles:
 | --- | --- |
 | [TeslaMate](https://github.com/teslamate-org/teslamate) | Primary self-hosted data collector and source of truth |
 | [TeslaMateAPI](https://github.com/tobiasehlert/teslamateapi) | JSON bridge used by My T to read normal TeslaMate data |
-| [My T Parking Monitor](https://github.com/MatchHar/My-T-Parking-Monitor) | Optional read-only enhancement for detailed parking and live-drive history |
+| [My T Companion](https://github.com/MatchHar/My-T-Companion) | Optional read-only enhancement for parking history, verified drive trajectories, charging/navigation Live Activities, and vehicle software notifications |
 
 New users should deploy and verify TeslaMate first by following its
 [official documentation](https://docs.teslamate.org/), then add TeslaMateAPI,
-connect My T, and only afterward consider the optional Parking Monitor.
+connect My T, and only afterward consider the optional My T Companion.
 
 ## What My T does
 
@@ -65,7 +65,7 @@ Vehicle → TeslaMate → PostgreSQL
                          │
                          ├─ TeslaMateAPI → My T
                          │
-                         └─ My T Parking Monitor (optional, read-only) → My T
+                         └─ My T Companion (optional, read-only) → My T
 ```
 
 Normal vehicle, drive, charge, and statistics data is read through
@@ -73,7 +73,7 @@ Normal vehicle, drive, charge, and statistics data is read through
 optionally read the TeslaMate web endpoint to display server-version
 information; that endpoint is not required for normal vehicle data.
 
-[My T Parking Monitor](https://github.com/MatchHar/My-T-Parking-Monitor) is an
+[My T Companion](https://github.com/MatchHar/My-T-Companion) is an
 optional server component for genuine long-term parking sleep/wake history,
 battery/range observations, reliable current-drive trajectories, and charging
 Live Activity updates while the App is not open. Basic My T features continue
@@ -112,7 +112,7 @@ change as upstream projects evolve; see the dated
 3. In My T, open **Settings → Server Connections → TeslaMate Server**.
 4. Enter the API root URL and the matching authentication method.
 5. Run **Test Connection** and select a vehicle.
-6. Optionally deploy My T Parking Monitor after the normal connection works.
+6. Optionally deploy My T Companion after the normal connection works.
 
 Never expose TeslaMate, PostgreSQL, MQTT, Grafana, or an unauthenticated API
 directly to the Internet. See the [complete setup guide](docs/SETUP.md).

@@ -6,14 +6,14 @@ Last verified: 2026-07-27
 
 The public App Store build is currently **My T 3.10**. Standard TeslaMate and
 TeslaMateAPI connections, trips, charging, statistics, and other features
-present in that build remain independent of My T Parking Monitor.
+present in that build remain independent of My T Companion.
 
-Parking Monitor integration described in this repository is being tested for a
+My T Companion integration described in this repository is being tested for a
 later My T release. Installing the server companion now does not make its
 screens appear in My T 3.10. Wait for release notes that explicitly list
-Parking Monitor support before installing it for normal use.
+My T Companion support before installing it for normal use.
 
-Parking Monitor 1.5.0 also contains the optional server-side portion of native
+My T Companion 1.5.0 also contains the optional server-side portion of native
 vehicle software notifications. It remains inactive until a compatible My T
 build enables notifications and completes secure pairing.
 
@@ -24,13 +24,13 @@ companion through the existing TeslaMateAPI address.
 ## 简体中文
 
 App Store 当前公开版本是 **My T 3.10**。该版本已有的 TeslaMate、
-TeslaMateAPI 连接、行程、充电、统计等功能不依赖 My T Parking Monitor。
+TeslaMateAPI 连接、行程、充电、统计等功能不依赖 My T Companion。
 
 本仓库介绍的停车监控接入正在为后续 My T 版本测试。现在只安装服务器组件，
 不会让相关页面出现在 My T 3.10 中。用于日常使用前，请等待 My T 的版本说明
 明确列出“停车监控”支持。
 
-Parking Monitor 1.5.0 也包含车辆软件原生通知的可选服务器端功能。在兼容的
+My T Companion 1.5.0 也包含车辆软件原生通知的可选服务器端功能。在兼容的
 My T 版本启用通知并完成安全配对前，该功能保持关闭。
 
 服务器组件始终为选装。未来的兼容 My T 版本在未部署组件时仍可正常使用，
@@ -39,13 +39,13 @@ My T 版本启用通知并完成安全配对前，该功能保持关闭。
 ## 繁體中文
 
 App Store 目前公開版本是 **My T 3.10**。該版本已有的 TeslaMate、
-TeslaMateAPI 連線、行程、充電、統計等功能不依賴 My T Parking Monitor。
+TeslaMateAPI 連線、行程、充電、統計等功能不依賴 My T Companion。
 
 本倉庫介紹的停車監控整合正在為後續 My T 版本測試。現在只安裝伺服器元件，
 不會令相關頁面出現在 My T 3.10。作日常使用前，請等待 My T 的版本說明
 明確列出「停車監控」支援。
 
-Parking Monitor 1.5.0 亦包含車輛軟體原生通知的選用伺服器端功能。在相容的
+My T Companion 1.5.0 亦包含車輛軟體原生通知的選用伺服器端功能。在相容的
 My T 版本啟用通知並完成安全配對前，該功能保持關閉。
 
 伺服器元件始終為選裝。未來的相容 My T 版本在未部署元件時仍可正常使用，
