@@ -8,7 +8,7 @@
 
 **My T 是用于查看和理解用户自建 TeslaMate 数据的独立 iPhone 客户端。**
 
-[前往 App Store 下载 My T](https://apps.apple.com/cn/app/my-t/id6780299502) ·
+[前往 App Store 下载 My T](https://apps.apple.com/us/app/my-t/id6780299502) ·
 [部署指南](docs/SETUP.zh-Hans.md) ·
 [技术支持](SUPPORT.md) ·
 [隐私说明](PRIVACY.md)
