@@ -50,7 +50,7 @@ history, or driving history.
 
 ## Optional charging Live Activities
 
-When a compatible My T build and My T Companion 1.8.0 are paired, the same
+When a compatible My T build and My T Companion 1.9.2 are paired, the same
 delivery relay can start and update a Lock Screen or Dynamic Island charging
 Live Activity while the App is not open. The minimal signed event can contain
 the opaque installation ID, car ID or display label, charging session ID,

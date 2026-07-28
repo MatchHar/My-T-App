@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Updated the documented and verified My T Companion release to 1.9.2,
+  including retained genuine plug/charging, security/opening, climate, and
+  charge-port parking events.
 - Updated My T Companion compatibility to 1.6.1 and documented optional
   charging Live Activities using genuine TeslaMate MQTT readings.
 - Updated My T Companion compatibility to the published 1.5.1 security

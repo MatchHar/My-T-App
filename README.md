@@ -75,9 +75,10 @@ information; that endpoint is not required for normal vehicle data.
 
 [My T Companion](https://github.com/MatchHar/My-T-Companion) is an
 optional server component for genuine long-term parking sleep/wake history,
-battery/range observations, reliable current-drive trajectories, and charging
-Live Activity updates while the App is not open. Basic My T features continue
-to work without it.
+battery/range observations, future genuine plug/charging/security/climate
+events, reliable current-drive trajectories, and charging Live Activity
+updates while the App is not open. Basic My T features continue to work
+without it.
 
 ## Screenshots
 
