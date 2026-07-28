@@ -35,6 +35,24 @@ PostgreSQL database in read-only mode and returns requested data directly to My
 T through the user's own secured endpoint. It does not operate a second vehicle
 history store.
 
+## Optional vehicle software notifications
+
+If the user enables vehicle software notifications in a compatible My T
+version, Apple Push Notification service requires an App-operated delivery
+relay. The relay stores the APNs device token and an opaque installation
+identifier needed to address that installation.
+
+The user's Parking Monitor sends only a signed software-update event: the
+opaque installation ID, TeslaMate car ID or display label, reported update
+type/version, and observation time. It does **not** send VIN, location,
+TeslaMate credentials, database passwords, battery data, routes, charging
+history, or driving history.
+
+Each installation uses a unique secret and signed requests. Disabling the
+notification feature does not affect parking, navigation, or other self-hosted
+features. This notification path is separate from normal vehicle-history
+access, which continues directly between the user's server and My T.
+
 ## Public support
 
 Never submit credentials, server addresses, VINs, GPS coordinates, `.env`

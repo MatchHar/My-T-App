@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Updated Parking Monitor compatibility to the published 1.5.0 release.
+- Documented the privacy boundary for optional native software-update
+  notifications and the minimal data handled by the delivery relay.
+- Clarified that the 1.5.0 notification service remains inactive until a
+  compatible My T build completes secure pairing.
 - Created the public, source-free My T product documentation repository.
 - Added English, Simplified Chinese, and Traditional Chinese product pages.
 - Added secure TeslaMate/TeslaMateAPI setup guides and troubleshooting.
