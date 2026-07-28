@@ -1,6 +1,6 @@
 # Privacy
 
-Last updated: 2026-07-27
+Last updated: 2026-07-28
 
 The public privacy policy is available at
 [my-t-privacy-policy.pages.dev](https://my-t-privacy-policy.pages.dev/).
@@ -47,6 +47,20 @@ opaque installation ID, TeslaMate car ID or display label, reported update
 type/version, and observation time. It does **not** send VIN, location,
 TeslaMate credentials, database passwords, battery data, routes, charging
 history, or driving history.
+
+## Optional charging Live Activities
+
+When a compatible My T build and Parking Monitor 1.6.1 are paired, the same
+delivery relay can start and update a Lock Screen or Dynamic Island charging
+Live Activity while the App is not open. The minimal signed event can contain
+the opaque installation ID, car ID or display label, charging session ID,
+start/current/target battery percentage, genuine rated-range readings and
+range gain, charging power, remaining duration, and estimated completion time.
+
+This path does **not** send VIN, location, routes, TeslaMate credentials,
+database passwords, driving history, or kWh. Missing range values are omitted
+rather than estimated. APNs and Live Activity tokens are used only to address
+the user's own App installation.
 
 Each installation uses a unique secret and signed requests. Disabling the
 notification feature does not affect parking, navigation, or other self-hosted
