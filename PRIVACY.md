@@ -34,7 +34,8 @@ My T Companion runs on the user's TeslaMate host. It reads the existing
 PostgreSQL database in read-only mode and returns requested data directly to My
 T through the user's own secured endpoint. It does not copy the full TeslaMate
 vehicle history. To preserve events that iOS cannot reconstruct later, it keeps
-a limited Companion-owned parking-event log (365 days by default) containing
+a bounded Companion-owned parking-event log (up to the newest 50,000 events by
+default) containing
 observed state boundaries such as sleep/wake, plug/charging, security/opening,
 and climate changes. This remains on the user's own VPS in the Companion data
 volume.
@@ -56,7 +57,7 @@ history, or driving history.
 
 ## Optional charging Live Activities
 
-When a compatible My T build and My T Companion 1.9.3 are paired, the same
+When a compatible My T build and My T Companion 1.10.0 are paired, the same
 delivery relay can start and update a Lock Screen or Dynamic Island charging
 Live Activity while the App is not open. The minimal signed event can contain
 the opaque installation ID, car ID or display label, charging session ID,

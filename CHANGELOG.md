@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+- Expanded the English, Simplified Chinese, and Traditional Chinese product
+  introduction with event-by-event long-term parking behavior: plug, charging,
+  lock, openings, Sentry, climate, preconditioning, battery heating, and
+  truthful missing-data handling.
+- Updated the recommended My T Companion release to 1.10.0 and documented its
+  long-term bounded parking storage and backup/restore lifecycle.
+
 - Updated My T Companion guidance to 1.9.3 and documented repeated-pairing MQTT
   stability, finite parking-event retention, navigation Live Activity privacy,
   and Push Relay 1.1.0 registration cleanup/health behavior.

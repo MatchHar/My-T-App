@@ -130,8 +130,9 @@ It adds genuine long-term parking state history and reliable current-drive
 trajectory data. It:
 
 - reads the existing TeslaMate PostgreSQL database in read-only mode;
-- does not copy the full vehicle history, but retains a small 365-day
-  parking-event log in its own VPS data volume by default;
+- does not copy the full vehicle history, but retains a small long-term
+  parking-event log in its own VPS data volume, bounded to the newest 50,000
+  events by default;
 - uses the same My T base URL and authentication;
 - keeps port 8083 bound to localhost;
 - requires all installer-managed Companion routes to share the normal

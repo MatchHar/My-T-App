@@ -16,7 +16,7 @@ your own TeslaMate server.**
 
 > **Feature availability:** the public App Store build is **My T 3.10** (no
 > Companion screens). **TestFlight / pre-release My T 3.20+** supports My T
-> Companion **1.9.3** (parking timeline, observed events, trajectories, optional
+> Companion **1.10.0** (parking timeline, observed events, trajectories, optional
 > Live Activities after pairing). See
 > [feature availability](docs/FEATURE_AVAILABILITY.md).
 
@@ -59,6 +59,23 @@ connect My T, and only afterward consider the optional My T Companion.
 - Also supports Tessie as a separate optional data source.
 - Stores connection credentials in the iOS Keychain.
 
+### Long-term parking, event by event
+
+With the optional My T Companion, the parking monitor retains genuine
+observations that a suspended iPhone cannot collect continuously:
+
+- online, offline, sleep, wake, and charging transitions in chronological order;
+- battery percentage and rated range at each boundary when TeslaMate reported them;
+- cable connected/disconnected and charging started/stopped;
+- lock/unlock, doors, windows, front/rear trunks, and charge-port changes;
+- Sentry, climate, preconditioning, and battery-heating changes.
+
+The first retained MQTT value after install/restart is a baseline, not an
+invented event. Missing battery, range, or event data remains unavailable
+instead of being estimated. Parking events are retained long-term by default
+with a bounded capacity policy. Standard parking, trip, and charging history
+continues to work without Companion.
+
 ## How My T works with TeslaMate
 
 ```text
@@ -74,7 +91,7 @@ Normal vehicle, drive, charge, and statistics data is read through
 optionally read the TeslaMate web endpoint to display server-version
 information; that endpoint is not required for normal vehicle data.
 
-[My T Companion](https://github.com/MatchHar/My-T-Companion) is an
+[My T Companion 1.10.0](https://github.com/MatchHar/My-T-Companion) is an
 optional server component for genuine long-term parking sleep/wake history,
 battery and rated-range observations at state boundaries, retained
 plug/charging/security/climate events, reliable current-drive trajectories,
