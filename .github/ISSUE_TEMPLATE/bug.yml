@@ -10,16 +10,17 @@ body:
     id: app-version
     attributes:
       label: My T version and build
-      placeholder: "For example: 3.20 (362)"
+      placeholder: "As shown in Settings, for example: 3.20 (375)"
     validations:
       required: true
   - type: input
     id: server-versions
     attributes:
-      label: TeslaMate and TeslaMateAPI versions
-      placeholder: "Use version numbers only"
+      label: Applicable server versions
+      description: TeslaMate, TeslaMateAPI, My T Companion, or Tessie; omit components you do not use.
+      placeholder: "Use component names and version numbers only"
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: network
     attributes:

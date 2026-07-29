@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+- Updated My T Companion guidance to 1.9.3 and documented repeated-pairing MQTT
+  stability, finite parking-event retention, navigation Live Activity privacy,
+  and Push Relay 1.1.0 registration cleanup/health behavior.
+- Corrected TeslaMate/Tessie source wording, setup route counts, public
+  security-reporting instructions, and the issue template's server scope.
+- Added an automated public-repository boundary check.
 - Clarified feature availability: App Store remains My T 3.10; TestFlight /
   pre-release My T 3.20+ supports Companion 1.9.2; replaced outdated 1.5.0
   notification-only wording and “future events” language with current 1.9.2

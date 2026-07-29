@@ -1,34 +1,33 @@
-# Public release checklist
+# Public repository maintenance record
 
-This repository is public product documentation. It intentionally does not
-contain the private My T application source code.
+This repository is already public product documentation. It intentionally does
+not contain the private My T application source code.
 
-## Before changing repository visibility
+## Verified publication baseline
 
-- [ ] Confirm the App Store version and
-      [feature-availability notice](docs/FEATURE_AVAILABILITY.md) are current.
-- [ ] Confirm every screenshot contains demonstration data only.
-- [ ] Scan files and Git history for credentials, signing material, private
-      infrastructure, VINs, coordinates, logs, and personal account data.
-- [ ] Verify English, Simplified Chinese, and Traditional Chinese navigation.
-- [ ] Verify TeslaMate, TeslaMateAPI, My T Companion, App Store, privacy,
-      security, support, and license links.
-- [ ] Confirm the My T Companion repository remains clearly marked optional
-      and does not claim support in an unreleased App Store build.
-- [ ] Confirm no app source, provisioning profile, certificate, archive,
-      internal build file, or private server configuration is tracked.
-- [ ] Confirm the repository-local pre-commit boundary is enabled with
-      `git config core.hooksPath .githooks`.
-- [ ] Configure branch protection, secret scanning, Dependabot alerts, and
-      private vulnerability reporting where GitHub makes them available.
-- [ ] Confirm GitHub Actions billing/spending limits permit required checks.
+- Repository visibility is public.
+- App source, Xcode projects, provisioning profiles, certificates, archives,
+  internal build files, and private server configuration are excluded.
+- Secret scanning, push protection, Dependabot security updates, and private
+  vulnerability reporting are enabled.
+- English, Simplified Chinese, and Traditional Chinese product/setup
+  navigation is present.
+- TeslaMate, TeslaMateAPI, My T Companion, App Store, privacy, security,
+  support, and license destinations are documented.
+- My T Companion is clearly optional, and feature availability distinguishes
+  the public App Store build from TestFlight/pre-release builds.
+- The repository-local pre-commit boundary is enabled with
+  `git config core.hooksPath .githooks`.
 
-## Immediately after publication
+## Required for every documentation release
 
-- [ ] Open the repository in a signed-out browser.
-- [ ] Check all three README pages and setup guides.
-- [ ] Verify the App Store and upstream project links from a signed-out browser.
-- [ ] Confirm issues do not solicit secrets, raw logs, database exports, VINs,
-      or exact vehicle coordinates.
-- [ ] Keep `docs/FEATURE_AVAILABILITY.md` synchronized with every public My T
-      release.
+- [ ] Confirm App Store and TestFlight versions in
+      [feature availability](docs/FEATURE_AVAILABILITY.md).
+- [ ] Confirm recommended TeslaMate, TeslaMateAPI, and My T Companion versions
+      in [compatibility](docs/COMPATIBILITY.md).
+- [ ] Verify screenshots contain demonstration data only.
+- [ ] Run the public-boundary check and inspect the complete staged diff.
+- [ ] Verify external links from a signed-out browser.
+- [ ] Confirm issues do not request secrets, raw logs, database exports, VINs,
+      server addresses, or exact vehicle coordinates.
+- [ ] Confirm GitHub Actions completed successfully.

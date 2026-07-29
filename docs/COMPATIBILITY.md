@@ -7,7 +7,7 @@ Last verified: **2026-07-29**
 | My T | iPhone, iOS 18+ | App Store public: **3.10**. TestFlight / pre-release: **3.20+** with Companion. iPad is not a documented target. |
 | TeslaMateAPI | `1.25.0` | Main TeslaMate data interface |
 | TeslaMate | `4.0.1` on the validation server | Vehicle data still reaches My T through TeslaMateAPI |
-| My T Companion | public release `1.9.2` | Optional retained parking events/history, verified drive trajectories, remote charging/navigation Live Activities, and software notifications (push/Live Activities need pairing) |
+| My T Companion | public release `1.9.3` | Optional retained parking events/history, verified drive trajectories, remote charging/navigation Live Activities, and software notifications; includes repeated-pairing MQTT stability safeguards (push/Live Activities need pairing) |
 | Authentication | None on trusted LAN/VPN; Basic; Bearer; Cloudflare Access | Public HTTP without authentication is unsupported |
 | Network | LAN, Tailscale/VPN, HTTPS reverse proxy, Cloudflare Tunnel | API root URL required |
 

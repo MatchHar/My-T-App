@@ -16,7 +16,7 @@ your own TeslaMate server.**
 
 > **Feature availability:** the public App Store build is **My T 3.10** (no
 > Companion screens). **TestFlight / pre-release My T 3.20+** supports My T
-> Companion **1.9.2** (parking timeline, observed events, trajectories, optional
+> Companion **1.9.3** (parking timeline, observed events, trajectories, optional
 > Live Activities after pairing). See
 > [feature availability](docs/FEATURE_AVAILABILITY.md).
 
@@ -97,8 +97,8 @@ location, VIN, server address, or credentials.
 ## Requirements
 
 - iPhone with iOS 18 or later.
-- A working self-hosted TeslaMate deployment.
-- A compatible TeslaMateAPI deployment for the TeslaMate data source.
+- Either a working self-hosted TeslaMate deployment with a compatible
+  TeslaMateAPI, or a supported Tessie connection.
 - A safe path from the iPhone to the API: trusted LAN, VPN/Tailscale, or HTTPS
   with authentication.
 

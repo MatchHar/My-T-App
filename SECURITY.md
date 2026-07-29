@@ -8,10 +8,9 @@ The App source code is private and is not part of this repository.
 
 ## Reporting
 
-Do not open a public issue for a possible vulnerability. After this repository
-is public, use GitHub private vulnerability reporting. Until then, contact the
-repository owner through GitHub without including a working secret or
-unredacted vehicle data.
+Do not open a public issue for a possible vulnerability. Use this repository's
+[private vulnerability reporting](https://github.com/MatchHar/My-T-App/security/advisories/new)
+without including a working production secret or unredacted vehicle data.
 
 Include:
 
@@ -30,8 +29,8 @@ Never include:
 ## Deployment baseline
 
 - No unauthenticated public API.
-- No public PostgreSQL, MQTT, Grafana, TeslaMate web, TeslaMateAPI, or Parking
-  Monitor ports.
+- No public PostgreSQL, MQTT, Grafana, TeslaMate web, TeslaMateAPI, or My T
+  Companion container ports.
 - HTTPS or a private VPN for remote access.
 - Unique secrets stored outside Compose source.
 - Commands disabled unless the user separately understands and authorizes

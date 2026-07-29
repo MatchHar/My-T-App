@@ -14,7 +14,7 @@
 [隐私说明](PRIVACY.md)
 
 > **功能可用性：**App Store 公开版为 **My T 3.10**（无 Companion 相关界面）。
-> **TestFlight / 预发布 My T 3.20+** 已支持 My T Companion **1.9.2**（长期停车
+> **TestFlight / 预发布 My T 3.20+** 已支持 My T Companion **1.9.3**（长期停车
 > 流水、观测事件、轨迹，以及配对后的可选实时活动）。详情请看
 > [功能可用性说明](docs/FEATURE_AVAILABILITY.md)。
 
@@ -35,7 +35,7 @@ My T 把 TeslaMate 保存的这些数据整理成适合 iPhone 使用的概览�
 
 | 组件 | 作用 |
 | --- | --- |
-| [TeslaMate](https://github.com/teslamate-org/teslamate) | 主要的自建数据采集器和唯一数据来源 |
+| [TeslaMate](https://github.com/teslamate-org/teslamate) | 使用自建连接时的主要数据采集器和数据依据 |
 | [TeslaMateAPI](https://github.com/tobiasehlert/teslamateapi) | 将普通 TeslaMate 数据以 JSON 提供给 My T 的连接层 |
 | [My T 增强服务](https://github.com/MatchHar/My-T-Companion) | 选装的只读扩展：长期停车、真实行驶轨迹、充电/导航实时活动及车辆软件通知 |
 
@@ -87,8 +87,7 @@ TeslaMate，再安装 TeslaMateAPI、连接 My T，最后按需要选装 My T �
 ## 使用条件
 
 - iOS 18 或更高版本的 iPhone。
-- 已正常运行的自建 TeslaMate。
-- 使用 TeslaMate 数据源时需要兼容的 TeslaMateAPI。
+- 已正常运行的自建 TeslaMate 与兼容的 TeslaMateAPI，或受支持的 Tessie 连接。
 - iPhone 能通过可信局域网、VPN/Tailscale，或带认证的 HTTPS 安全访问 API。
 
 My T 当前已验证 TeslaMateAPI `1.25.0`。上游项目升级后兼容性可能变化，修改
@@ -107,6 +106,13 @@ My T 当前已验证 TeslaMateAPI `1.25.0`。上游项目升级后兼容性可�
 
 切勿把 TeslaMate、PostgreSQL、MQTT、Grafana 或无认证 API 直接暴露到公网。
 请阅读[完整部署指南](docs/SETUP.zh-Hans.md)。
+
+## 隐私
+
+My T 不运营车辆历史数据库。车辆数据仍保存在用户选择的自建服务器或服务商，
+App 直接从已配置的数据源读取。只有用户主动启用的软件通知或实时活动会使用
+推送中继，并且只发送完成通知投递所需的最少数据；详见
+[PRIVACY.md](PRIVACY.md)。
 
 ## 独立项目声明
 
