@@ -14,9 +14,10 @@ your own TeslaMate server.**
 [Support](SUPPORT.md) ·
 [Privacy](PRIVACY.md)
 
-> **Feature availability:** the App Store currently distributes My T 3.10.
-> My T Companion integration described here is being prepared for a later
-> My T release and is not yet part of the public App Store build. See
+> **Feature availability:** the public App Store build is **My T 3.10** (no
+> Companion screens). **TestFlight / pre-release My T 3.20+** supports My T
+> Companion **1.9.2** (parking timeline, observed events, trajectories, optional
+> Live Activities after pairing). See
 > [feature availability](docs/FEATURE_AVAILABILITY.md).
 
 This repository contains public product documentation and support material.
@@ -75,10 +76,11 @@ information; that endpoint is not required for normal vehicle data.
 
 [My T Companion](https://github.com/MatchHar/My-T-Companion) is an
 optional server component for genuine long-term parking sleep/wake history,
-battery/range observations, future genuine plug/charging/security/climate
-events, reliable current-drive trajectories, and charging Live Activity
-updates while the App is not open. Basic My T features continue to work
-without it.
+battery and rated-range observations at state boundaries, retained
+plug/charging/security/climate events, reliable current-drive trajectories,
+and optional charging/navigation Live Activities or software notifications
+while the App is not open (after secure pairing). Basic My T features continue
+to work without it.
 
 ## Screenshots
 

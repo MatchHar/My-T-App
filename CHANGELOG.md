@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Clarified feature availability: App Store remains My T 3.10; TestFlight /
+  pre-release My T 3.20+ supports Companion 1.9.2; replaced outdated 1.5.0
+  notification-only wording and “future events” language with current 1.9.2
+  capabilities.
 - Updated the documented and verified My T Companion release to 1.9.2,
   including retained genuine plug/charging, security/opening, climate, and
   charge-port parking events.
