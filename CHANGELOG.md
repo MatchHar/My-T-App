@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+- Synchronized the App Store 3.32 English, Simplified Chinese, and Traditional
+  Chinese release description and public product/support/privacy links.
+- Replaced the previous four-image gallery with the 18 localized 3.32 App Store
+  screenshots: overview/notification, enhanced parking, charging/Lock Screen,
+  destination navigation, drive replay, and battery trends.
+- Updated feature availability and compatibility without prematurely claiming
+  release: 3.32 was submitted on August 1, 2026 and is waiting for Apple review.
 - Expanded the English, Simplified Chinese, and Traditional Chinese product
   introduction with event-by-event long-term parking behavior: plug, charging,
   lock, openings, Sentry, climate, preconditioning, battery heating, and

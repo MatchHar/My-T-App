@@ -13,9 +13,10 @@
 [技术支持](SUPPORT.md) ·
 [隐私说明](PRIVACY.md)
 
-> **功能可用性：**App Store 公开版为 **My T 3.10**（无 Companion 相关界面）。
-> **TestFlight / 预发布 My T 3.20+** 已支持 My T Companion **1.10.2**（长期停车
-> 流水、观测事件、轨迹，以及配对后的可选实时活动）。详情请看
+> **发布状态：** **My T 3.32** 已于 2026 年 8 月 1 日提交 Apple，目前等待审核。
+> Apple 审核通过前，App Store 可下载版本仍可能是旧版。My T 3.32 支持
+> My T Companion **1.10.2**，用于增强停车历史、真实轨迹，以及安全配对后的
+> 可选实时活动与软件通知。详情请看
 > [功能可用性说明](docs/FEATURE_AVAILABILITY.md)。
 
 本仓库只包含公开的产品介绍、部署文档和支持资料，**不包含 My T App
@@ -91,13 +92,17 @@ TeslaMate，再安装 TeslaMateAPI、连接 My T，最后按需要选装 My T �
 ## 界面预览
 
 <p>
-  <img src="docs/images/zh-Hans/01-vehicle-at-a-glance.png" width="24%" alt="车辆概览">
-  <img src="docs/images/zh-Hans/02-live-navigation.png" width="24%" alt="实时导航">
-  <img src="docs/images/zh-Hans/03-trip-insights.png" width="24%" alt="行程分析">
-  <img src="docs/images/zh-Hans/04-charging-history.png" width="24%" alt="充电历史">
+  <img src="docs/images/zh-Hans/01-vehicle-at-a-glance.png" width="16%" alt="车辆概览与软件通知">
+  <img src="docs/images/zh-Hans/02-parking-timeline.png" width="16%" alt="停车增强时间线">
+  <img src="docs/images/zh-Hans/03-charging.png" width="16%" alt="充电分析与锁屏实时活动">
+  <img src="docs/images/zh-Hans/04-live-navigation.png" width="16%" alt="有目的地实时导航">
+  <img src="docs/images/zh-Hans/05-drive-replay.png" width="16%" alt="行程回放与遥测">
+  <img src="docs/images/zh-Hans/06-battery-trends.png" width="16%" alt="电池健康趋势">
 </p>
 
 截图使用演示数据，不包含真实用户的位置、VIN、服务器地址或凭证。
+
+查看完整三语版 [My T 3.32 更新说明](docs/APP_STORE_3.32.md)。
 
 ## 使用条件
 

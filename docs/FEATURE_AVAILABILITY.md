@@ -1,21 +1,22 @@
 # Feature availability / 功能可用性
 
-Last verified: 2026-07-29
+Last verified: 2026-08-01
 
 ## English
 
 | Channel | My T version | My T Companion |
 | --- | --- | --- |
-| **App Store** (public) | **3.10** | Integration described in this repository is **not** in the public App Store binary. Installing Companion alone does not add Companion screens on 3.10. |
-| **TestFlight / pre-release** | **3.20** (and later builds) | Companion **1.10.2** is supported: long-term parking sleep/wake timeline, observed plug/security/opening/climate events, verified drive trajectories, and optional Live Activities / software push after secure pairing. |
+| **App Store** | **3.32 submitted; waiting for review** | Apple has received 3.32 with Companion integration. Until approval, the downloadable App Store binary may remain older and may not contain Companion screens. |
+| **TestFlight / pre-release** | **3.32** | Companion **1.10.2** is supported: long-term parking sleep/wake timeline, observed plug/security/opening/climate events, verified drive trajectories, and optional Live Activities / software push after secure pairing. |
 
-Standard TeslaMate and TeslaMateAPI connections, trips, charging, statistics, and other features that already ship in 3.10 remain independent of My T Companion.
+Standard TeslaMate and TeslaMateAPI connections, trips, charging, statistics,
+and other core features remain independent of My T Companion.
 
 **Recommended Companion version:** public release **1.10.2**. It adds long-term bounded parking-event retention, explicit temporary-state cleanup, localized release notes, and supported backup/restore tooling.
 
 Optional vehicle software notifications, charging Live Activities, and navigation Live Activities require:
 
-1. A compatible My T build (TestFlight 3.20+; not App Store 3.10).
+1. A compatible My T 3.32 build.
 2. My T Companion **1.10.2** (or newer with the same capabilities).
 3. Secure App ↔ relay pairing completed on the phone.
 
@@ -27,16 +28,16 @@ The server companion remains optional. Compatible My T builds detect it through 
 
 | 渠道 | My T 版本 | My T Companion |
 | --- | --- | --- |
-| **App Store**（公开） | **3.10** | 本仓库描述的增强接入**不在**当前公开 App Store 包中。仅安装服务器组件，不会在 3.10 出现相关页面。 |
-| **TestFlight / 预发布** | **3.20**（及后续构建） | 支持 Companion **1.10.2**：长期停车休眠/唤醒流水、插枪/安防/开闭/空调等真实观测事件、可验证行驶轨迹，以及完成安全配对后的可选实时活动与软件推送。 |
+| **App Store** | **3.32 已提交，等待审核** | Apple 已收到包含 Companion 接入的 3.32。审核通过前，App Store 当前可下载包仍可能是旧版，并且可能没有 Companion 页面。 |
+| **TestFlight / 预发布** | **3.32** | 支持 Companion **1.10.2**：长期停车休眠/唤醒流水、插枪/安防/开闭/空调等真实观测事件、可验证行驶轨迹，以及完成安全配对后的可选实时活动与软件推送。 |
 
-3.10 已有的 TeslaMate、TeslaMateAPI 连接、行程、充电、统计等功能不依赖 My T Companion。
+TeslaMate、TeslaMateAPI 连接、行程、充电、统计等基础功能不依赖 My T Companion。
 
 **推荐 Companion 版本：** 公开版 **1.10.2**。该版本加入长期且有容量保护的停车事件、临时状态清理、三语更新说明及正式备份/恢复工具。
 
 可选的车辆软件通知、充电实时活动、导航实时活动需要：
 
-1. 兼容的 My T（TestFlight 3.20+；非 App Store 3.10）。
+1. 兼容的 My T 3.32。
 2. My T Companion **1.10.2**（或具备相同能力的更新版）。
 3. 在手机上完成 App 与中继的安全配对。
 
@@ -48,16 +49,16 @@ The server companion remains optional. Compatible My T builds detect it through 
 
 | 渠道 | My T 版本 | My T Companion |
 | --- | --- | --- |
-| **App Store**（公開） | **3.10** | 本倉庫所述增強整合**不在**目前公開 App Store 套件中。僅安裝伺服器元件，不會在 3.10 出現相關畫面。 |
-| **TestFlight / 預發布** | **3.20**（及後續建置） | 支援 Companion **1.10.2**：長期停車休眠／喚醒流水、插槍／保全／開關／空調等真實觀測事件、可驗證行駛軌跡，以及完成安全配對後的可選即時動態與軟體推播。 |
+| **App Store** | **3.32 已提交，等待審查** | Apple 已收到包含 Companion 整合的 3.32。審查通過前，App Store 目前可下載套件仍可能是舊版，並且可能沒有 Companion 畫面。 |
+| **TestFlight / 預發布** | **3.32** | 支援 Companion **1.10.2**：長期停車休眠／喚醒流水、插槍／保全／開關／空調等真實觀測事件、可驗證行駛軌跡，以及完成安全配對後的選用即時動態與軟體推播。 |
 
-3.10 已有的 TeslaMate、TeslaMateAPI 連線、行程、充電、統計等功能不依賴 My T Companion。
+TeslaMate、TeslaMateAPI 連線、行程、充電、統計等基本功能不依賴 My T Companion。
 
 **建議 Companion 版本：** 公開版 **1.10.2**。此版本加入長期且有容量保護的停車事件、暫時狀態清理、三語更新說明及正式備份／還原工具。
 
 可選的車輛軟體通知、充電即時動態、導航即時動態需要：
 
-1. 相容的 My T（TestFlight 3.20+；非 App Store 3.10）。
+1. 相容的 My T 3.32。
 2. My T Companion **1.10.2**（或具備相同能力的更新版）。
 3. 在手機上完成 App 與中繼的安全配對。
 

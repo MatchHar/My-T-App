@@ -13,9 +13,10 @@
 [技術支援](SUPPORT.md) ·
 [隱私說明](PRIVACY.md)
 
-> **功能可用性：**App Store 公開版為 **My T 3.10**（無 Companion 相關介面）。
-> **TestFlight / 預發布 My T 3.20+** 已支援 My T Companion **1.10.2**（長期停車
-> 流水、觀測事件、軌跡，以及配對後的可選即時動態）。詳情請參閱
+> **發佈狀態：** **My T 3.32** 已於 2026 年 8 月 1 日提交 Apple，目前等待審查。
+> Apple 審查通過前，App Store 可下載版本仍可能是舊版。My T 3.32 支援
+> My T Companion **1.10.2**，用於增強停車歷史、真實軌跡，以及安全配對後的
+> 選用即時動態與軟體推播。詳情請參閱
 > [功能可用性說明](docs/FEATURE_AVAILABILITY.md)。
 
 本倉庫只包含公開的產品介紹、部署文件及支援資料，**不包含 My T App
@@ -91,13 +92,17 @@ TeslaMate，再安裝 TeslaMateAPI、連線 My T，最後按需要選裝 My T �
 ## 介面預覽
 
 <p>
-  <img src="docs/images/zh-Hant/01-vehicle-at-a-glance.png" width="24%" alt="車輛概覽">
-  <img src="docs/images/zh-Hant/02-live-navigation.png" width="24%" alt="即時導航">
-  <img src="docs/images/zh-Hant/03-trip-insights.png" width="24%" alt="行程分析">
-  <img src="docs/images/zh-Hant/04-charging-history.png" width="24%" alt="充電歷史">
+  <img src="docs/images/zh-Hant/01-vehicle-at-a-glance.png" width="16%" alt="車輛概覽與軟體通知">
+  <img src="docs/images/zh-Hant/02-parking-timeline.png" width="16%" alt="停車增強時間軸">
+  <img src="docs/images/zh-Hant/03-charging.png" width="16%" alt="充電分析與鎖定畫面即時動態">
+  <img src="docs/images/zh-Hant/04-live-navigation.png" width="16%" alt="有目的地即時導航">
+  <img src="docs/images/zh-Hant/05-drive-replay.png" width="16%" alt="行程回放與遙測">
+  <img src="docs/images/zh-Hant/06-battery-trends.png" width="16%" alt="電池健康趨勢">
 </p>
 
 截圖使用示範資料，不包含真實使用者的位置、VIN、伺服器位址或憑證。
+
+查看完整三語版 [My T 3.32 更新說明](docs/APP_STORE_3.32.md)。
 
 ## 使用條件
 

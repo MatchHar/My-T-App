@@ -14,10 +14,11 @@ your own TeslaMate server.**
 [Support](SUPPORT.md) ·
 [Privacy](PRIVACY.md)
 
-> **Feature availability:** the public App Store build is **My T 3.10** (no
-> Companion screens). **TestFlight / pre-release My T 3.20+** supports My T
-> Companion **1.10.2** (parking timeline, observed events, trajectories, optional
-> Live Activities after pairing). See
+> **Release status:** **My T 3.32** was submitted to Apple on August 1, 2026 and
+> is waiting for review. Until Apple approves it, the currently downloadable
+> App Store version may remain older. My T 3.32 supports My T Companion
+> **1.10.2** for enhanced parking history, verified trajectories, optional Live
+> Activities, and software notifications after secure pairing. See
 > [feature availability](docs/FEATURE_AVAILABILITY.md).
 
 This repository contains public product documentation and support material.
@@ -102,14 +103,18 @@ to work without it.
 ## Screenshots
 
 <p>
-  <img src="docs/images/en/01-vehicle-at-a-glance.png" width="24%" alt="Vehicle overview">
-  <img src="docs/images/en/02-live-navigation.png" width="24%" alt="Live navigation">
-  <img src="docs/images/en/03-trip-insights.png" width="24%" alt="Trip insights">
-  <img src="docs/images/en/04-charging-history.png" width="24%" alt="Charging history">
+  <img src="docs/images/en/01-vehicle-at-a-glance.png" width="16%" alt="Vehicle overview and software notification">
+  <img src="docs/images/en/02-parking-timeline.png" width="16%" alt="Enhanced parking timeline">
+  <img src="docs/images/en/03-charging.png" width="16%" alt="Charging analysis and Lock Screen Live Activity">
+  <img src="docs/images/en/04-live-navigation.png" width="16%" alt="Live destination navigation">
+  <img src="docs/images/en/05-drive-replay.png" width="16%" alt="Drive replay and telemetry">
+  <img src="docs/images/en/06-battery-trends.png" width="16%" alt="Battery health trends">
 </p>
 
 Screenshots use demonstration data and do not show a real user's vehicle
 location, VIN, server address, or credentials.
+
+See the complete trilingual [My T 3.32 release notes](docs/APP_STORE_3.32.md).
 
 ## Requirements
 
