@@ -14,7 +14,7 @@
 [隱私說明](PRIVACY.md)
 
 > **功能可用性：**App Store 公開版為 **My T 3.10**（無 Companion 相關介面）。
-> **TestFlight / 預發布 My T 3.20+** 已支援 My T Companion **1.10.0**（長期停車
+> **TestFlight / 預發布 My T 3.20+** 已支援 My T Companion **1.10.2**（長期停車
 > 流水、觀測事件、軌跡，以及配對後的可選即時動態）。詳情請參閱
 > [功能可用性說明](docs/FEATURE_AVAILABILITY.md)。
 
@@ -82,7 +82,7 @@ TeslaMate，再安裝 TeslaMateAPI、連線 My T，最後按需要選裝 My T �
 可能選擇性存取 TeslaMate 網頁介面以顯示伺服器版本；一般車輛資料不依賴網頁
 介面。
 
-[My T 擴充服務 1.10.0](https://github.com/MatchHar/My-T-Companion)
+[My T 擴充服務 1.10.2](https://github.com/MatchHar/My-T-Companion)
 是選裝伺服器元件，用於真實的長期停車休眠／喚醒歷史、狀態邊界的電量與額定
 續航觀測、已保留的插槍／充電／保全／開關／空調等 MQTT 事件、可靠的目前行駛
 軌跡，以及在完成安全配對後、App 未開啟時的可選充電／導航鎖定畫面即時動態與

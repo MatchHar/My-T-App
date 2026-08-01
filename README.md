@@ -16,7 +16,7 @@ your own TeslaMate server.**
 
 > **Feature availability:** the public App Store build is **My T 3.10** (no
 > Companion screens). **TestFlight / pre-release My T 3.20+** supports My T
-> Companion **1.10.0** (parking timeline, observed events, trajectories, optional
+> Companion **1.10.2** (parking timeline, observed events, trajectories, optional
 > Live Activities after pairing). See
 > [feature availability](docs/FEATURE_AVAILABILITY.md).
 
@@ -61,7 +61,7 @@ connect My T, and only afterward consider the optional My T Companion.
 
 ### Long-term parking, event by event
 
-With the optional My T Companion, the parking monitor retains genuine
+With the optional My T Companion, enhanced parking retains genuine
 observations that a suspended iPhone cannot collect continuously:
 
 - online, offline, sleep, wake, and charging transitions in chronological order;
@@ -91,7 +91,7 @@ Normal vehicle, drive, charge, and statistics data is read through
 optionally read the TeslaMate web endpoint to display server-version
 information; that endpoint is not required for normal vehicle data.
 
-[My T Companion 1.10.0](https://github.com/MatchHar/My-T-Companion) is an
+[My T Companion 1.10.2](https://github.com/MatchHar/My-T-Companion) is an
 optional server component for genuine long-term parking sleep/wake history,
 battery and rated-range observations at state boundaries, retained
 plug/charging/security/climate events, reliable current-drive trajectories,
