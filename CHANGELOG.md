@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Corrected the recommended Companion release from 1.10.2 to the verified
+  latest stable **1.10.7**, added its navigation-session capabilities, and
+  linked directly to the matching GitHub Release.
+- Made the relationship bidirectional: My-T-App links to the exact Companion
+  release while Companion links back to My-T-App availability and setup docs.
 - Synchronized the App Store 3.32 English, Simplified Chinese, and Traditional
   Chinese release description and public product/support/privacy links.
 - Replaced the previous four-image gallery with the 18 localized 3.32 App Store
