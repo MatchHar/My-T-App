@@ -36,7 +36,7 @@ Do not provide:
 - Security problem: follow [SECURITY.md](SECURITY.md); do not create a public
   issue.
 - App Store/privacy/support request:
-  [official My T support](https://my-t-privacy-policy.pages.dev/support/).
+  [official My T support](https://my-tesla.app/support/).
 - TeslaMate or TeslaMateAPI upstream problem: use the respective upstream
   project after confirming the issue is not specific to My T.
 

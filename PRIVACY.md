@@ -3,7 +3,7 @@
 Last updated: 2026-07-29
 
 The public privacy policy is available at
-[my-t-privacy-policy.pages.dev](https://my-t-privacy-policy.pages.dev/).
+[https://my-tesla.app/privacy/](https://my-tesla.app/privacy/).
 This file explains the self-hosted data path in practical terms.
 
 ## Vehicle data
@@ -100,4 +100,4 @@ files, database exports, screenshots containing private locations, or raw
 production logs to a public GitHub issue.
 
 Questions about the App Store privacy disclosure should use the
-[official support page](https://my-t-privacy-policy.pages.dev/support/).
+[official support page](https://my-tesla.app/support/).
