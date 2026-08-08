@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eu
 
-forbidden_pattern='(^|/)(MyCarMate|AppStore|ci_scripts|DerivedData)(/|$)|\.(swift|pbxproj|ipa|mobileprovision|p12|cer|key)$|\.xcodeproj/|\.xcworkspace/|(^|/)\.env(\.|$)|(^|/)GoogleService-Info\.plist$|(^|/)ExportOptions[^/]*\.plist$'
+forbidden_pattern='(^|/)(MyCarMate|AppStore|ci_scripts|DerivedData|secrets|private)(/|$)|\.(swift|pbxproj|ipa|mobileprovision|p12|cer|key|pem|log|dump|sql)$|\.xcodeproj/|\.xcworkspace/|(^|/)\.env(\.|$)|(^|/)GoogleService-Info\.plist$|(^|/)ExportOptions[^/]*\.plist$'
 
 blocked=$(
   git diff --cached --name-only --diff-filter=ACMR |

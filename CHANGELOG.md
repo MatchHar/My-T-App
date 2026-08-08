@@ -2,9 +2,16 @@
 
 ## Unreleased
 
-- Corrected the recommended Companion release from 1.10.2 to the verified
-  latest stable **1.10.7**, added its navigation-session capabilities, and
-  linked directly to the matching GitHub Release.
+- Replaced hard-coded recommended Companion release links with the stable
+  `releases/latest` endpoint while retaining 1.10.7 as the My T 3.32
+  compatibility floor across English, Simplified Chinese, and Traditional
+  Chinese documentation.
+- Expanded public-boundary checks to reject private directories, keys, logs,
+  and database exports; documented per-clone hook activation and refreshed
+  public issue and pull-request guidance.
+- Corrected the earlier Companion baseline from 1.10.2 to the verified
+  compatibility floor **1.10.7** and documented its navigation-session
+  capabilities.
 - Made the relationship bidirectional: My-T-App links to the exact Companion
   release while Companion links back to My-T-App availability and setup docs.
 - Synchronized the App Store 3.32 English, Simplified Chinese, and Traditional
