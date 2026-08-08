@@ -2,6 +2,8 @@
 
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md)
 
+[![My T Companion 最新版](https://img.shields.io/github/v/release/MatchHar/My-T-Companion?label=My%20T%20Companion)](https://github.com/MatchHar/My-T-Companion/releases/latest)
+
 <p align="center">
   <img src="docs/images/my-t-logo.png" width="112" alt="My T App 图标">
 </p>
@@ -14,8 +16,9 @@
 [隐私说明](PRIVACY.md)
 
 > **发布状态：** **My T 3.32** 已于 2026 年 8 月 1 日提交 Apple，目前等待审核。
-> Apple 审核通过前，App Store 可下载版本仍可能是旧版。My T 3.32 支持
-> My T Companion **1.10.7**，用于增强停车历史、真实轨迹，以及安全配对后的
+> Apple 审核通过前，App Store 可下载版本仍可能是旧版。My T 3.32 支持兼容的
+> [My T Companion 版本](https://github.com/MatchHar/My-T-Companion/releases/latest)，
+> 用于增强停车历史、真实轨迹，以及安全配对后的
 > 可选实时活动与软件通知。详情请看
 > [功能可用性说明](docs/FEATURE_AVAILABILITY.md)。
 
@@ -83,26 +86,21 @@ TeslaMate，再安装 TeslaMateAPI、连接 My T，最后按需要选装 My T �
 可能选择性访问 TeslaMate 网页接口以显示服务器版本；普通车辆数据不依赖网页
 接口。
 
-[My T 增强服务 1.10.7](https://github.com/MatchHar/My-T-Companion/releases/tag/v1.10.7)
-是当前已验证的服务器正式版。它是选装服务器组件，用于真实的长期停车休眠/唤醒历史、状态边界的电量与额定
+[最新稳定版 My T 增强服务](https://github.com/MatchHar/My-T-Companion/releases/latest)
+是推荐的服务器正式版。My T 3.32 的最低兼容版本为 1.10.7；除非后续稳定版的
+发布说明另有声明，否则将保持相同的公开 API 约定。它是选装服务器组件，用于真实的长期停车休眠/唤醒历史、状态边界的电量与额定
 续航观测、已保留的插枪/充电/安防/开闭/空调等 MQTT 事件、可靠的正在行驶
 轨迹、带真实起点／目的地变更／行程时间的导航会话历史，以及在完成安全配对
 后、App 未打开时的可选充电/导航锁屏实时活动与软件通知。未安装时，My T
 基础功能继续正常使用。Companion 也会链接回本仓库的 App 可用性与部署说明，
 两个公开仓库共同说明同一条兼容使用路径。
 
-## 界面预览
+## 产品示意图
 
-<p>
-  <img src="docs/images/zh-Hans/01-vehicle-at-a-glance.png" width="16%" alt="车辆概览与软件通知">
-  <img src="docs/images/zh-Hans/02-parking-timeline.png" width="16%" alt="停车增强时间线">
-  <img src="docs/images/zh-Hans/03-charging.png" width="16%" alt="充电分析与锁屏实时活动">
-  <img src="docs/images/zh-Hans/04-live-navigation.png" width="16%" alt="有目的地实时导航">
-  <img src="docs/images/zh-Hans/05-drive-replay.png" width="16%" alt="行程回放与遥测">
-  <img src="docs/images/zh-Hans/06-battery-trends.png" width="16%" alt="电池健康趋势">
-</p>
+![不含个人信息的合成电动车仪表界面示意图](docs/images/privacy-safe-product-illustration.png)
 
-截图使用演示数据，不包含真实用户的位置、VIN、服务器地址或凭证。
+该图片是完全合成的产品示意图，不包含车辆名称、地点、路线、VIN、服务器
+地址、凭证、日期、时间或用户遥测数据。
 
 查看完整三语版 [My T 3.32 更新说明](docs/APP_STORE_3.32.md)。
 

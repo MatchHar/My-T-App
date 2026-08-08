@@ -15,6 +15,16 @@ Before opening an issue or pull request:
 4. Use GitHub private vulnerability reporting for security issues; do not
    disclose them in a public issue.
 
+After cloning, enable the repository safety hook once:
+
+```sh
+git config core.hooksPath .githooks
+```
+
+Before every pull request, run `scripts/verify-public-boundary.sh`. The same
+check runs in GitHub Actions, but the local hook helps prevent sensitive file
+types or private project paths from entering a commit.
+
 Translations should preserve the same technical meaning in English,
 Simplified Chinese, and Traditional Chinese. Product claims must match the
 public App Store release described in `docs/FEATURE_AVAILABILITY.md`.

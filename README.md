@@ -2,6 +2,8 @@
 
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md)
 
+[![Latest My T Companion](https://img.shields.io/github/v/release/MatchHar/My-T-Companion?label=My%20T%20Companion)](https://github.com/MatchHar/My-T-Companion/releases/latest)
+
 <p align="center">
   <img src="docs/images/my-t-logo.png" width="112" alt="My T app icon">
 </p>
@@ -16,8 +18,9 @@ your own TeslaMate server.**
 
 > **Release status:** **My T 3.32** was submitted to Apple on August 1, 2026 and
 > is waiting for review. Until Apple approves it, the currently downloadable
-> App Store version may remain older. My T 3.32 supports My T Companion
-> **1.10.7** for enhanced parking history, verified trajectories, optional Live
+> App Store version may remain older. My T 3.32 supports a compatible
+> [My T Companion release](https://github.com/MatchHar/My-T-Companion/releases/latest)
+> for enhanced parking history, verified trajectories, optional Live
 > Activities, and software notifications after secure pairing. See
 > [feature availability](docs/FEATURE_AVAILABILITY.md).
 
@@ -92,8 +95,10 @@ Normal vehicle, drive, charge, and statistics data is read through
 optionally read the TeslaMate web endpoint to display server-version
 information; that endpoint is not required for normal vehicle data.
 
-[My T Companion 1.10.7](https://github.com/MatchHar/My-T-Companion/releases/tag/v1.10.7) is the
-current verified server release. It is an
+[The latest stable My T Companion](https://github.com/MatchHar/My-T-Companion/releases/latest)
+is the recommended server release. My T 3.32 has a compatibility floor of
+Companion 1.10.7; later stable releases retain the same public API contract
+unless their release notes state otherwise. Companion is an
 optional server component for genuine long-term parking sleep/wake history,
 battery and rated-range observations at state boundaries, retained
 plug/charging/security/climate events, reliable current-drive trajectories,
@@ -104,19 +109,12 @@ not open (after secure pairing). Basic My T features continue to work without
 it. Companion links back to this repository for App availability and setup, so
 the two public repositories describe one compatible release path.
 
-## Screenshots
+## Product illustration
 
-<p>
-  <img src="docs/images/en/01-vehicle-at-a-glance.png" width="16%" alt="Vehicle overview and software notification">
-  <img src="docs/images/en/02-parking-timeline.png" width="16%" alt="Enhanced parking timeline">
-  <img src="docs/images/en/03-charging.png" width="16%" alt="Charging analysis and Lock Screen Live Activity">
-  <img src="docs/images/en/04-live-navigation.png" width="16%" alt="Live destination navigation">
-  <img src="docs/images/en/05-drive-replay.png" width="16%" alt="Drive replay and telemetry">
-  <img src="docs/images/en/06-battery-trends.png" width="16%" alt="Battery health trends">
-</p>
+![Synthetic privacy-safe illustration of an electric-vehicle dashboard](docs/images/privacy-safe-product-illustration.png)
 
-Screenshots use demonstration data and do not show a real user's vehicle
-location, VIN, server address, or credentials.
+This deliberately synthetic illustration contains no vehicle name, location,
+route, VIN, server address, credential, date, time, or user telemetry.
 
 See the complete trilingual [My T 3.32 release notes](docs/APP_STORE_3.32.md).
 

@@ -16,8 +16,9 @@ not contain the private My T application source code.
   support, and license destinations are documented.
 - My T Companion is clearly optional, and feature availability distinguishes
   the public App Store build from TestFlight/pre-release builds.
-- The repository-local pre-commit boundary is enabled with
-  `git config core.hooksPath .githooks`.
+- Contributors are instructed to enable the repository-local pre-commit
+  boundary with `git config core.hooksPath .githooks`; this per-clone setting
+  cannot be distributed by Git.
 
 ## Required for every documentation release
 
@@ -25,8 +26,12 @@ not contain the private My T application source code.
       [feature availability](docs/FEATURE_AVAILABILITY.md).
 - [ ] Confirm recommended TeslaMate, TeslaMateAPI, and My T Companion versions
       in [compatibility](docs/COMPATIBILITY.md).
-- [ ] Verify screenshots contain demonstration data only.
+- [ ] Verify every published image is synthetic or independently sanitized and
+      contains no vehicle name, home/work label, location, route, VIN, server
+      address, credential, date/time correlation, or embedded personal metadata.
 - [ ] Run the public-boundary check and inspect the complete staged diff.
+- [ ] Confirm `git config core.hooksPath` returns `.githooks` in the working
+      clone.
 - [ ] Verify external links from a signed-out browser.
 - [ ] Confirm issues do not request secrets, raw logs, database exports, VINs,
       server addresses, or exact vehicle coordinates.

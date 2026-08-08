@@ -10,7 +10,7 @@ body:
     id: app-version
     attributes:
       label: My T version and build
-      placeholder: "As shown in Settings, for example: 3.20 (375)"
+      placeholder: "As shown in Settings, for example: 3.32 (build number)"
     validations:
       required: true
   - type: input

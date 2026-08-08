@@ -2,16 +2,23 @@
 
 ## Unreleased
 
-- Corrected the recommended Companion release from 1.10.2 to the verified
-  latest stable **1.10.7**, added its navigation-session capabilities, and
-  linked directly to the matching GitHub Release.
+- Replaced the localized screenshot gallery with one fully synthetic,
+  privacy-safe product illustration that contains no vehicle identity,
+  location, route, time, server, credential, or user telemetry.
+- Replaced hard-coded recommended Companion release links with the stable
+  `releases/latest` endpoint while retaining 1.10.7 as the My T 3.32
+  compatibility floor across English, Simplified Chinese, and Traditional
+  Chinese documentation.
+- Expanded public-boundary checks to reject private directories, keys, logs,
+  and database exports; documented per-clone hook activation and refreshed
+  public issue and pull-request guidance.
+- Corrected the earlier Companion baseline from 1.10.2 to the verified
+  compatibility floor **1.10.7** and documented its navigation-session
+  capabilities.
 - Made the relationship bidirectional: My-T-App links to the exact Companion
   release while Companion links back to My-T-App availability and setup docs.
 - Synchronized the App Store 3.32 English, Simplified Chinese, and Traditional
   Chinese release description and public product/support/privacy links.
-- Replaced the previous four-image gallery with the 18 localized 3.32 App Store
-  screenshots: overview/notification, enhanced parking, charging/Lock Screen,
-  destination navigation, drive replay, and battery trends.
 - Updated feature availability and compatibility without prematurely claiming
   release: 3.32 was submitted on August 1, 2026 and is waiting for Apple review.
 - Expanded the English, Simplified Chinese, and Traditional Chinese product

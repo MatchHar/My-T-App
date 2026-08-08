@@ -31,8 +31,7 @@ Do not provide:
 
 ## Where to ask
 
-- Product/setup bug: use the repository issue template after the repository is
-  public.
+- Product/setup bug: use the repository issue template.
 - Security problem: follow [SECURITY.md](SECURITY.md); do not create a public
   issue.
 - App Store/privacy/support request:
