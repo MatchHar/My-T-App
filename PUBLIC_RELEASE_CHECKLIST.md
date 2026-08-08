@@ -26,7 +26,9 @@ not contain the private My T application source code.
       [feature availability](docs/FEATURE_AVAILABILITY.md).
 - [ ] Confirm recommended TeslaMate, TeslaMateAPI, and My T Companion versions
       in [compatibility](docs/COMPATIBILITY.md).
-- [ ] Verify screenshots contain demonstration data only.
+- [ ] Verify every published image is synthetic or independently sanitized and
+      contains no vehicle name, home/work label, location, route, VIN, server
+      address, credential, date/time correlation, or embedded personal metadata.
 - [ ] Run the public-boundary check and inspect the complete staged diff.
 - [ ] Confirm `git config core.hooksPath` returns `.githooks` in the working
       clone.

@@ -95,18 +95,12 @@ TeslaMate，再安装 TeslaMateAPI、连接 My T，最后按需要选装 My T �
 基础功能继续正常使用。Companion 也会链接回本仓库的 App 可用性与部署说明，
 两个公开仓库共同说明同一条兼容使用路径。
 
-## 界面预览
+## 产品示意图
 
-<p>
-  <img src="docs/images/zh-Hans/01-vehicle-at-a-glance.png" width="16%" alt="车辆概览与软件通知">
-  <img src="docs/images/zh-Hans/02-parking-timeline.png" width="16%" alt="停车增强时间线">
-  <img src="docs/images/zh-Hans/03-charging.png" width="16%" alt="充电分析与锁屏实时活动">
-  <img src="docs/images/zh-Hans/04-live-navigation.png" width="16%" alt="有目的地实时导航">
-  <img src="docs/images/zh-Hans/05-drive-replay.png" width="16%" alt="行程回放与遥测">
-  <img src="docs/images/zh-Hans/06-battery-trends.png" width="16%" alt="电池健康趋势">
-</p>
+![不含个人信息的合成电动车仪表界面示意图](docs/images/privacy-safe-product-illustration.png)
 
-截图使用演示数据，不包含真实用户的位置、VIN、服务器地址或凭证。
+该图片是完全合成的产品示意图，不包含车辆名称、地点、路线、VIN、服务器
+地址、凭证、日期、时间或用户遥测数据。
 
 查看完整三语版 [My T 3.32 更新说明](docs/APP_STORE_3.32.md)。
 

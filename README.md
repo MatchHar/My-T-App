@@ -109,19 +109,12 @@ not open (after secure pairing). Basic My T features continue to work without
 it. Companion links back to this repository for App availability and setup, so
 the two public repositories describe one compatible release path.
 
-## Screenshots
+## Product illustration
 
-<p>
-  <img src="docs/images/en/01-vehicle-at-a-glance.png" width="16%" alt="Vehicle overview and software notification">
-  <img src="docs/images/en/02-parking-timeline.png" width="16%" alt="Enhanced parking timeline">
-  <img src="docs/images/en/03-charging.png" width="16%" alt="Charging analysis and Lock Screen Live Activity">
-  <img src="docs/images/en/04-live-navigation.png" width="16%" alt="Live destination navigation">
-  <img src="docs/images/en/05-drive-replay.png" width="16%" alt="Drive replay and telemetry">
-  <img src="docs/images/en/06-battery-trends.png" width="16%" alt="Battery health trends">
-</p>
+![Synthetic privacy-safe illustration of an electric-vehicle dashboard](docs/images/privacy-safe-product-illustration.png)
 
-Screenshots use demonstration data and do not show a real user's vehicle
-location, VIN, server address, or credentials.
+This deliberately synthetic illustration contains no vehicle name, location,
+route, VIN, server address, credential, date, time, or user telemetry.
 
 See the complete trilingual [My T 3.32 release notes](docs/APP_STORE_3.32.md).
 
