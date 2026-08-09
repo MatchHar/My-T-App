@@ -1,15 +1,20 @@
 # Compatibility
 
-Last verified: **2026-08-01**
+Last verified: **2026-08-09**
 
 | Component | Verified state | Notes |
 | --- | --- | --- |
-| My T | iPhone, iOS 18+ | **3.32** is in App Review; TestFlight/pre-release 3.32 supports Companion. The downloadable App Store binary may remain older until approval. iPad is not a documented target. |
+| My T | iPhone, iOS 18+ | **4.01.1** is in App Review. The downloadable App Store binary may remain older until approval. iPad is not a documented target. |
 | TeslaMateAPI | `1.25.0` | Main TeslaMate data interface |
-| TeslaMate | `4.0.1` on the validation server | Vehicle data still reaches My T through TeslaMateAPI |
-| My T Companion | public release [`1.10.7`](https://github.com/MatchHar/My-T-Companion/releases/tag/v1.10.7) | Optional long-term bounded parking events/history, verified drive trajectories, persistent destination-navigation sessions with genuine start names/timing, remote charging/navigation Live Activities, software notifications, and supported state backup/restore (push/Live Activities need pairing) |
-| Authentication | None on trusted LAN/VPN; Basic; Bearer; Cloudflare Access | Public HTTP without authentication is unsupported |
+| TeslaMate | `4.0.1` on the validation server | Vehicle data reaches My T through TeslaMateAPI |
+| My T Companion | [latest stable release](https://github.com/MatchHar/My-T-Companion/releases/latest) | Compatibility is negotiated through `/api/v1/capabilities`, not an exact version string. Use the latest stable release for long-term parking history, verified trajectories, destination-trip sessions, Live Activities and software notifications. |
+| Authentication | None only on a trusted LAN/VPN; Basic; Bearer; Cloudflare Access | Public HTTP without authentication is unsupported |
 | Network | LAN, Tailscale/VPN, HTTPS reverse proxy, Cloudflare Tunnel | API root URL required |
+
+The permanent Companion link above always resolves to GitHub's current stable
+release, so routine Companion releases do not require a documentation edit.
+Compatibility remains capability-based: My T enables an enhancement only when
+the server reports the required capability.
 
 This is a dated validation record, not a promise that every older or future
 upstream version is compatible. TeslaMate and TeslaMateAPI are independent

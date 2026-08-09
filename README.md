@@ -14,12 +14,15 @@ your own TeslaMate server.**
 [Support](SUPPORT.md) ·
 [Privacy](PRIVACY.md)
 
-> **Release status:** **My T 3.32** was submitted to Apple on August 1, 2026 and
-> is waiting for review. Until Apple approves it, the currently downloadable
-> App Store version may remain older. My T 3.32 supports My T Companion
-> **1.10.7** for enhanced parking history, verified trajectories, optional Live
+> **Release status:** **My T 4.01.1** is currently in App Review. Until Apple
+> approves it, the downloadable App Store version may remain older. Companion
+> compatibility is capability-based; use the
+> [latest stable My T Companion release](https://github.com/MatchHar/My-T-Companion/releases/latest)
+> for enhanced parking history, verified trajectories, optional Live
 > Activities, and software notifications after secure pairing. See
 > [feature availability](docs/FEATURE_AVAILABILITY.md).
+
+[![Latest Companion release](https://img.shields.io/github/v/release/MatchHar/My-T-Companion?display_name=tag&sort=semver)](https://github.com/MatchHar/My-T-Companion/releases/latest)
 
 This repository contains public product documentation and support material.
 **It does not contain the My T application source code.**
@@ -92,8 +95,9 @@ Normal vehicle, drive, charge, and statistics data is read through
 optionally read the TeslaMate web endpoint to display server-version
 information; that endpoint is not required for normal vehicle data.
 
-[My T Companion 1.10.7](https://github.com/MatchHar/My-T-Companion/releases/tag/v1.10.7) is the
-current verified server release. It is an
+[The latest stable My T Companion release](https://github.com/MatchHar/My-T-Companion/releases/latest)
+is the recommended server release. This permanent link and the badge above
+resolve to the current GitHub release automatically. Companion is an
 optional server component for genuine long-term parking sleep/wake history,
 battery and rated-range observations at state boundaries, retained
 plug/charging/security/climate events, reliable current-drive trajectories,
@@ -107,18 +111,21 @@ the two public repositories describe one compatible release path.
 ## Screenshots
 
 <p>
-  <img src="docs/images/en/01-vehicle-at-a-glance.png" width="16%" alt="Vehicle overview and software notification">
-  <img src="docs/images/en/02-parking-timeline.png" width="16%" alt="Enhanced parking timeline">
-  <img src="docs/images/en/03-charging.png" width="16%" alt="Charging analysis and Lock Screen Live Activity">
-  <img src="docs/images/en/04-live-navigation.png" width="16%" alt="Live destination navigation">
-  <img src="docs/images/en/05-drive-replay.png" width="16%" alt="Drive replay and telemetry">
-  <img src="docs/images/en/06-battery-trends.png" width="16%" alt="Battery health trends">
+  <img src="docs/images/en/01-vehicle-at-a-glance.png" width="12%" alt="Vehicle overview and software notification">
+  <img src="docs/images/en/02-parking-timeline.png" width="12%" alt="Enhanced parking timeline">
+  <img src="docs/images/en/03-charging.png" width="12%" alt="Charging analysis and Lock Screen Live Activity">
+  <img src="docs/images/en/04-live-navigation.png" width="12%" alt="Live destination navigation">
+  <img src="docs/images/en/05-drive-replay.png" width="12%" alt="Drive replay and telemetry">
+  <img src="docs/images/en/06-battery-trends.png" width="12%" alt="Battery health trends">
+  <img src="docs/images/en/07-trip-notifications.png" width="12%" alt="Trip departure and arrival notifications">
+  <img src="docs/images/en/08-self-hosting.png" width="12%" alt="Private self-hosted connection">
 </p>
 
 Screenshots use demonstration data and do not show a real user's vehicle
 location, VIN, server address, or credentials.
 
-See the complete trilingual [My T 3.32 release notes](docs/APP_STORE_3.32.md).
+See the [feature availability notice](docs/FEATURE_AVAILABILITY.md) for the
+current App submission; older 3.32 notes remain as release history.
 
 ## Requirements
 

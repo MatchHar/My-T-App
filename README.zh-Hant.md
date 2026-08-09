@@ -13,11 +13,13 @@
 [技術支援](SUPPORT.md) ·
 [隱私說明](PRIVACY.md)
 
-> **發佈狀態：** **My T 3.32** 已於 2026 年 8 月 1 日提交 Apple，目前等待審查。
-> Apple 審查通過前，App Store 可下載版本仍可能是舊版。My T 3.32 支援
-> My T Companion **1.10.7**，用於增強停車歷史、真實軌跡，以及安全配對後的
-> 選用即時動態與軟體推播。詳情請參閱
+> **發佈狀態：** **My T 4.01.1** 目前正在 App Review。Apple 審查通過前，
+> App Store 可下載版本仍可能是舊版。Companion 按能力協商相容，請使用
+> [My T Companion 最新穩定版](https://github.com/MatchHar/My-T-Companion/releases/latest)，
+> 用於增強停車歷史、真實軌跡，以及安全配對後的選用即時動態與軟體推播。詳情請參閱
 > [功能可用性說明](docs/FEATURE_AVAILABILITY.md)。
+
+[![Companion 最新版本](https://img.shields.io/github/v/release/MatchHar/My-T-Companion?display_name=tag&sort=semver)](https://github.com/MatchHar/My-T-Companion/releases/latest)
 
 本倉庫只包含公開的產品介紹、部署文件及支援資料，**不包含 My T App
 原始碼**。
@@ -83,8 +85,8 @@ TeslaMate，再安裝 TeslaMateAPI、連線 My T，最後按需要選裝 My T �
 可能選擇性存取 TeslaMate 網頁介面以顯示伺服器版本；一般車輛資料不依賴網頁
 介面。
 
-[My T 擴充服務 1.10.7](https://github.com/MatchHar/My-T-Companion/releases/tag/v1.10.7)
-是目前已驗證的伺服器正式版。它是選裝伺服器元件，用於真實的長期停車休眠／喚醒歷史、狀態邊界的電量與額定
+[My T Companion 最新穩定版](https://github.com/MatchHar/My-T-Companion/releases/latest)
+是建議的伺服器版本；此永久連結及上方徽章會自動指向 GitHub 目前正式版。它是選裝伺服器元件，用於真實的長期停車休眠／喚醒歷史、狀態邊界的電量與額定
 續航觀測、已保留的插槍／充電／保全／開關／空調等 MQTT 事件、可靠的目前行駛
 軌跡、帶真實起點／目的地變更／行程時間的導航工作階段歷史，以及在完成安全
 配對後、App 未開啟時的選用充電／導航鎖定畫面即時動態與軟體通知。未安裝時，
@@ -94,17 +96,19 @@ My T 基本功能仍可正常使用。Companion 亦會連結回本倉庫的 App 
 ## 介面預覽
 
 <p>
-  <img src="docs/images/zh-Hant/01-vehicle-at-a-glance.png" width="16%" alt="車輛概覽與軟體通知">
-  <img src="docs/images/zh-Hant/02-parking-timeline.png" width="16%" alt="停車增強時間軸">
-  <img src="docs/images/zh-Hant/03-charging.png" width="16%" alt="充電分析與鎖定畫面即時動態">
-  <img src="docs/images/zh-Hant/04-live-navigation.png" width="16%" alt="有目的地即時導航">
-  <img src="docs/images/zh-Hant/05-drive-replay.png" width="16%" alt="行程回放與遙測">
-  <img src="docs/images/zh-Hant/06-battery-trends.png" width="16%" alt="電池健康趨勢">
+  <img src="docs/images/zh-Hant/01-vehicle-at-a-glance.png" width="12%" alt="車輛概覽與軟體通知">
+  <img src="docs/images/zh-Hant/02-parking-timeline.png" width="12%" alt="停車增強時間軸">
+  <img src="docs/images/zh-Hant/03-charging.png" width="12%" alt="充電分析與鎖定畫面即時動態">
+  <img src="docs/images/zh-Hant/04-live-navigation.png" width="12%" alt="有目的地即時導航">
+  <img src="docs/images/zh-Hant/05-drive-replay.png" width="12%" alt="行程回放與遙測">
+  <img src="docs/images/zh-Hant/06-battery-trends.png" width="12%" alt="電池健康趨勢">
+  <img src="docs/images/zh-Hant/07-trip-notifications.png" width="12%" alt="行程出發與到達通知">
+  <img src="docs/images/zh-Hant/08-self-hosting.png" width="12%" alt="私有自建伺服器連線">
 </p>
 
 截圖使用示範資料，不包含真實使用者的位置、VIN、伺服器位址或憑證。
 
-查看完整三語版 [My T 3.32 更新說明](docs/APP_STORE_3.32.md)。
+目前 App 提交狀態請看[功能可用性說明](docs/FEATURE_AVAILABILITY.md)；3.32 文案僅作為歷史版本記錄保留。
 
 ## 使用條件
 

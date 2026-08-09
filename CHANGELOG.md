@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+- Updated public product status and all three language entry pages for the My T
+  4.01.1 App Review submission.
+- Replaced hard-coded “current Companion version” text with GitHub's permanent
+  `/releases/latest` link and a dynamic release badge. Compatibility continues
+  to be negotiated by capabilities, avoiding stale documentation after routine
+  Companion releases.
+- Expanded the trilingual feature notice to cover observed vehicle opening,
+  security, climate and charging activity plus departure, progress and arrival
+  updates for destination trips.
 - Corrected the recommended Companion release from 1.10.2 to the verified
   latest stable **1.10.7**, added its navigation-session capabilities, and
   linked directly to the matching GitHub Release.

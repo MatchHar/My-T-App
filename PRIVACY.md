@@ -1,6 +1,6 @@
 # Privacy
 
-Last updated: 2026-07-29
+Last updated: 2026-08-09
 
 The public privacy policy is available at
 [https://my-tesla.app/privacy/](https://my-tesla.app/privacy/).
@@ -84,9 +84,16 @@ passwords.
 The relay reuses an installation identity when the same APNs device token
 registers again, removes historical duplicates, and deletes registrations
 after 365 days without a registration or signed event by default. Cleanup runs
-at service startup and every 24 hours. The relay operator may configure a
-different bounded retention period. A successful Live Activity end also
-removes that session's update token.
+every 24 hours. Vehicle-event content is processed only for immediate APNs
+delivery and is not persisted by the relay. Legacy pending delivery payloads
+are purged by daily maintenance. A successful Live Activity end also removes
+that session's update token.
+
+The delivery audit log is retained for up to 90 days and contains only the
+opaque installation ID, event type, delivery outcome/detail, and timestamps.
+It does not retain vehicle names or IDs, destinations, battery values, software
+versions, or event content summaries. Legacy audit rows were redacted when this
+policy was updated.
 
 Each installation uses a unique secret and signed requests. Disabling the
 notification feature does not affect parking, navigation, or other self-hosted

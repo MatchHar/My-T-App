@@ -13,11 +13,13 @@
 [技术支持](SUPPORT.md) ·
 [隐私说明](PRIVACY.md)
 
-> **发布状态：** **My T 3.32** 已于 2026 年 8 月 1 日提交 Apple，目前等待审核。
-> Apple 审核通过前，App Store 可下载版本仍可能是旧版。My T 3.32 支持
-> My T Companion **1.10.7**，用于增强停车历史、真实轨迹，以及安全配对后的
-> 可选实时活动与软件通知。详情请看
+> **发布状态：** **My T 4.01.1** 目前正在 App Review。Apple 审核通过前，
+> App Store 可下载版本仍可能是旧版。Companion 按能力协商兼容，请使用
+> [My T Companion 最新稳定版](https://github.com/MatchHar/My-T-Companion/releases/latest)，
+> 用于增强停车历史、真实轨迹，以及安全配对后的可选实时活动与软件通知。详情请看
 > [功能可用性说明](docs/FEATURE_AVAILABILITY.md)。
+
+[![Companion 最新版本](https://img.shields.io/github/v/release/MatchHar/My-T-Companion?display_name=tag&sort=semver)](https://github.com/MatchHar/My-T-Companion/releases/latest)
 
 本仓库只包含公开的产品介绍、部署文档和支持资料，**不包含 My T App
 源代码**。
@@ -83,8 +85,8 @@ TeslaMate，再安装 TeslaMateAPI、连接 My T，最后按需要选装 My T �
 可能选择性访问 TeslaMate 网页接口以显示服务器版本；普通车辆数据不依赖网页
 接口。
 
-[My T 增强服务 1.10.7](https://github.com/MatchHar/My-T-Companion/releases/tag/v1.10.7)
-是当前已验证的服务器正式版。它是选装服务器组件，用于真实的长期停车休眠/唤醒历史、状态边界的电量与额定
+[My T Companion 最新稳定版](https://github.com/MatchHar/My-T-Companion/releases/latest)
+是推荐的服务器版本；此永久链接和上方徽章会自动指向 GitHub 当前正式版。它是选装服务器组件，用于真实的长期停车休眠/唤醒历史、状态边界的电量与额定
 续航观测、已保留的插枪/充电/安防/开闭/空调等 MQTT 事件、可靠的正在行驶
 轨迹、带真实起点／目的地变更／行程时间的导航会话历史，以及在完成安全配对
 后、App 未打开时的可选充电/导航锁屏实时活动与软件通知。未安装时，My T
@@ -94,17 +96,19 @@ TeslaMate，再安装 TeslaMateAPI、连接 My T，最后按需要选装 My T �
 ## 界面预览
 
 <p>
-  <img src="docs/images/zh-Hans/01-vehicle-at-a-glance.png" width="16%" alt="车辆概览与软件通知">
-  <img src="docs/images/zh-Hans/02-parking-timeline.png" width="16%" alt="停车增强时间线">
-  <img src="docs/images/zh-Hans/03-charging.png" width="16%" alt="充电分析与锁屏实时活动">
-  <img src="docs/images/zh-Hans/04-live-navigation.png" width="16%" alt="有目的地实时导航">
-  <img src="docs/images/zh-Hans/05-drive-replay.png" width="16%" alt="行程回放与遥测">
-  <img src="docs/images/zh-Hans/06-battery-trends.png" width="16%" alt="电池健康趋势">
+  <img src="docs/images/zh-Hans/01-vehicle-at-a-glance.png" width="12%" alt="车辆概览与软件通知">
+  <img src="docs/images/zh-Hans/02-parking-timeline.png" width="12%" alt="停车增强时间线">
+  <img src="docs/images/zh-Hans/03-charging.png" width="12%" alt="充电分析与锁屏实时活动">
+  <img src="docs/images/zh-Hans/04-live-navigation.png" width="12%" alt="有目的地实时导航">
+  <img src="docs/images/zh-Hans/05-drive-replay.png" width="12%" alt="行程回放与遥测">
+  <img src="docs/images/zh-Hans/06-battery-trends.png" width="12%" alt="电池健康趋势">
+  <img src="docs/images/zh-Hans/07-trip-notifications.png" width="12%" alt="行程出发与到达通知">
+  <img src="docs/images/zh-Hans/08-self-hosting.png" width="12%" alt="私有自建服务器连接">
 </p>
 
 截图使用演示数据，不包含真实用户的位置、VIN、服务器地址或凭证。
 
-查看完整三语版 [My T 3.32 更新说明](docs/APP_STORE_3.32.md)。
+当前 App 提交状态请看[功能可用性说明](docs/FEATURE_AVAILABILITY.md)；3.32 文案仅作为历史版本记录保留。
 
 ## 使用条件
 

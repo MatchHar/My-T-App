@@ -1,77 +1,54 @@
 # Feature availability / 功能可用性
 
-Last verified: 2026-08-01
+Last verified: 2026-08-09
 
 ## English
 
-| Channel | My T version | My T Companion |
+| Channel | My T version | Availability |
 | --- | --- | --- |
-| **App Store** | **3.32 submitted; waiting for review** | Apple has received 3.32 with Companion integration. Until approval, the downloadable App Store binary may remain older and may not contain Companion screens. |
-| **TestFlight / pre-release** | **3.32** | Companion **1.10.7** is supported: long-term parking sleep/wake timeline, observed plug/security/opening/climate events, verified drive trajectories, and optional Live Activities / software push after secure pairing. |
+| **App Store review** | **4.01.1** | Submitted through Xcode Cloud and waiting for Apple review. The downloadable App Store version may remain older until approval. |
+| **My T Companion** | [latest stable release](https://github.com/MatchHar/My-T-Companion/releases/latest) | My T discovers capabilities at `/api/v1/capabilities`; compatibility does not depend on a hard-coded “current” version number. |
 
-Standard TeslaMate and TeslaMateAPI connections, trips, charging, statistics,
-and other core features remain independent of My T Companion.
+My T 4.01.1 includes long-term parking and vehicle-activity monitoring,
+including observed lock/unlock, door, window, trunk, charge-port, Sentry,
+climate and charging changes. For trips with an active vehicle destination, it
+can provide departure, progress and arrival Live Activity or notification
+updates after secure pairing. It also includes verified drive trajectories,
+destination-trip history, charging analysis and self-hosted connection tools.
 
-**Recommended Companion version:** public release
-[**1.10.7**](https://github.com/MatchHar/My-T-Companion/releases/tag/v1.10.7).
-It includes long-term bounded parking events, backup/restore, persistent
-destination-navigation session history, real trip timing, mid-drive destination
-splitting, and genuine start-place names.
-
-Optional vehicle software notifications, charging Live Activities, and navigation Live Activities require:
-
-1. A compatible My T 3.32 build.
-2. My T Companion **1.10.7** (or newer with the same capabilities).
-3. Secure App ↔ relay pairing completed on the phone.
-
-Without pairing, parking history and trajectories still work when Companion is reachable; push and Live Activity delivery stay inactive.
-
-The server companion remains optional. Compatible My T builds detect it through the existing TeslaMateAPI base URL via `/api/v1/capabilities` and enable enhanced views only when present.
+Standard TeslaMate/TeslaMateAPI trips, charging and statistics do not require
+Companion. Push and Live Activity delivery remain inactive until pairing is
+completed. Use the permanent “latest stable release” link; it updates
+automatically when a new stable Companion release is published.
 
 ## 简体中文
 
-| 渠道 | My T 版本 | My T Companion |
+| 渠道 | My T 版本 | 可用状态 |
 | --- | --- | --- |
-| **App Store** | **3.32 已提交，等待审核** | Apple 已收到包含 Companion 接入的 3.32。审核通过前，App Store 当前可下载包仍可能是旧版，并且可能没有 Companion 页面。 |
-| **TestFlight / 预发布** | **3.32** | 支持 Companion **1.10.7**：长期停车休眠/唤醒流水、插枪/安防/开闭/空调等真实观测事件、可验证行驶轨迹，以及完成安全配对后的可选实时活动与软件推送。 |
+| **App Store 审核** | **4.01.1** | 已通过 Xcode Cloud 提交，正在等待 Apple 审核；审核通过前，App Store 可下载版本仍可能较旧。 |
+| **My T Companion** | [最新稳定版](https://github.com/MatchHar/My-T-Companion/releases/latest) | My T 通过 `/api/v1/capabilities` 发现能力；兼容性不依赖写死的“当前版本”数字。 |
 
-TeslaMate、TeslaMateAPI 连接、行程、充电、统计等基础功能不依赖 My T Companion。
+My T 4.01.1 提供长期停车与车辆活动监控，包括真实观测到的锁车／解锁、车门、
+车窗、前后备厢、充电口、哨兵、空调和充电变化。车辆设置了导航目的地并完成安全
+配对后，可通过实时活动或通知提供出发、途中进度与到达更新。版本还包括可验证的
+行驶轨迹、目的地行程历史、充电分析和自建连接工具。
 
-**推荐 Companion 版本：** 公开版
-[**1.10.7**](https://github.com/MatchHar/My-T-Companion/releases/tag/v1.10.7)。
-该版本包含长期容量受控的停车事件、备份／恢复、持久目的地导航会话历史、真实
-行程时间、行驶中目的地拆分及真实起点名称。
-
-可选的车辆软件通知、充电实时活动、导航实时活动需要：
-
-1. 兼容的 My T 3.32。
-2. My T Companion **1.10.7**（或具备相同能力的更新版）。
-3. 在手机上完成 App 与中继的安全配对。
-
-未配对时，只要能访问 Companion，停车历史与轨迹仍可工作；推送与实时活动投递保持关闭。
-
-服务器组件始终为选装。兼容 My T 通过现有 TeslaMateAPI 根地址检测 `/api/v1/capabilities`，仅在检测到组件后启用增强视图。
+普通 TeslaMate／TeslaMateAPI 行程、充电和统计不依赖 Companion。未完成配对时，
+推送和实时活动保持关闭。请使用“最新稳定版”永久链接；发布新的 Companion 正式版
+后，该链接会自动更新。
 
 ## 繁體中文
 
-| 渠道 | My T 版本 | My T Companion |
+| 渠道 | My T 版本 | 可用狀態 |
 | --- | --- | --- |
-| **App Store** | **3.32 已提交，等待審查** | Apple 已收到包含 Companion 整合的 3.32。審查通過前，App Store 目前可下載套件仍可能是舊版，並且可能沒有 Companion 畫面。 |
-| **TestFlight / 預發布** | **3.32** | 支援 Companion **1.10.7**：長期停車休眠／喚醒流水、插槍／保全／開關／空調等真實觀測事件、可驗證行駛軌跡，以及完成安全配對後的選用即時動態與軟體推播。 |
+| **App Store 審查** | **4.01.1** | 已透過 Xcode Cloud 提交，正在等待 Apple 審查；審查通過前，App Store 可下載版本仍可能較舊。 |
+| **My T Companion** | [最新穩定版](https://github.com/MatchHar/My-T-Companion/releases/latest) | My T 透過 `/api/v1/capabilities` 探測能力；相容性不依賴寫死的「目前版本」數字。 |
 
-TeslaMate、TeslaMateAPI 連線、行程、充電、統計等基本功能不依賴 My T Companion。
+My T 4.01.1 提供長期停車與車輛活動監控，包括真實觀測到的上鎖／解鎖、車門、
+車窗、前後行李廂、充電口、哨兵、空調及充電變化。車輛設定了導航目的地並完成
+安全配對後，可透過即時動態或通知提供出發、途中進度及到達更新。版本亦包括可
+驗證的行駛軌跡、目的地行程歷史、充電分析及自建連線工具。
 
-**建議 Companion 版本：** 公開版
-[**1.10.7**](https://github.com/MatchHar/My-T-Companion/releases/tag/v1.10.7)。
-此版本包含長期容量受控的停車事件、備份／還原、持久目的地導航工作階段歷史、
-真實行程時間、行駛中目的地拆分及真實起點名稱。
-
-可選的車輛軟體通知、充電即時動態、導航即時動態需要：
-
-1. 相容的 My T 3.32。
-2. My T Companion **1.10.7**（或具備相同能力的更新版）。
-3. 在手機上完成 App 與中繼的安全配對。
-
-未配對時，只要能存取 Companion，停車歷史與軌跡仍可運作；推播與即時動態投遞保持關閉。
-
-伺服器元件始終為選裝。相容 My T 經現有 TeslaMateAPI 根位址偵測 `/api/v1/capabilities`，僅在偵測到元件後啟用增強檢視。
+一般 TeslaMate／TeslaMateAPI 行程、充電及統計不依賴 Companion。未完成配對時，
+推播及即時動態保持關閉。請使用「最新穩定版」永久連結；發佈新的 Companion 正式版
+後，該連結會自動更新。
