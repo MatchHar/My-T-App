@@ -13,8 +13,9 @@
 [技術支援](SUPPORT.md) ·
 [隱私說明](PRIVACY.md)
 
-> **發佈狀態：** **My T 4.01.1** 目前正在 App Review。Apple 審查通過前，
-> App Store 可下載版本仍可能是舊版。Companion 按能力協商相容，請使用
+> **公開版本：** 已於 2026 年 8 月 12 日核對 Apple 公開頁面，目前 App Store
+> 可下載版本為 **My T 3.10**。本文件不預測審查狀態；實際可下載版本以 App Store
+> 頁面為準。Companion 按能力協商相容，請使用
 > [My T Companion 最新穩定版](https://github.com/MatchHar/My-T-Companion/releases/latest)，
 > 用於增強停車歷史、真實軌跡，以及安全配對後的選用即時動態與軟體推播。詳情請參閱
 > [功能可用性說明](docs/FEATURE_AVAILABILITY.md)。
@@ -108,7 +109,7 @@ My T 基本功能仍可正常使用。Companion 亦會連結回本倉庫的 App 
 
 截圖使用示範資料，不包含真實使用者的位置、VIN、伺服器位址或憑證。
 
-目前 App 提交狀態請看[功能可用性說明](docs/FEATURE_AVAILABILITY.md)；3.32 文案僅作為歷史版本記錄保留。
+公開版與預發佈功能邊界請看[功能可用性說明](docs/FEATURE_AVAILABILITY.md)；3.32 文案僅作為歷史版本記錄保留。
 
 ## 使用條件
 

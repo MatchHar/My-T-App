@@ -14,9 +14,10 @@ your own TeslaMate server.**
 [Support](SUPPORT.md) ·
 [Privacy](PRIVACY.md)
 
-> **Release status:** **My T 4.01.1** is currently in App Review. Until Apple
-> approves it, the downloadable App Store version may remain older. Companion
-> compatibility is capability-based; use the
+> **Public release:** Apple’s public listing was verified on August 12, 2026 and
+> currently offers **My T 3.10**. This page does not predict App Review status;
+> the App Store listing is the source of truth for downloadable availability.
+> Companion compatibility is capability-based; use the
 > [latest stable My T Companion release](https://github.com/MatchHar/My-T-Companion/releases/latest)
 > for enhanced parking history, verified trajectories, optional Live
 > Activities, and software notifications after secure pairing. See
@@ -125,7 +126,7 @@ Screenshots use demonstration data and do not show a real user's vehicle
 location, VIN, server address, or credentials.
 
 See the [feature availability notice](docs/FEATURE_AVAILABILITY.md) for the
-current App submission; older 3.32 notes remain as release history.
+public-versus-pre-release boundary; older 3.32 notes remain as release history.
 
 ## Requirements
 

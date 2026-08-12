@@ -13,8 +13,9 @@
 [技术支持](SUPPORT.md) ·
 [隐私说明](PRIVACY.md)
 
-> **发布状态：** **My T 4.01.1** 目前正在 App Review。Apple 审核通过前，
-> App Store 可下载版本仍可能是旧版。Companion 按能力协商兼容，请使用
+> **公开版本：** 已于 2026 年 8 月 12 日核对 Apple 公开页面，目前 App Store
+> 可下载版本为 **My T 3.10**。本文档不预测审核状态；实际可下载版本以 App Store
+> 页面为准。Companion 按能力协商兼容，请使用
 > [My T Companion 最新稳定版](https://github.com/MatchHar/My-T-Companion/releases/latest)，
 > 用于增强停车历史、真实轨迹，以及安全配对后的可选实时活动与软件通知。详情请看
 > [功能可用性说明](docs/FEATURE_AVAILABILITY.md)。
@@ -108,7 +109,7 @@ TeslaMate，再安装 TeslaMateAPI、连接 My T，最后按需要选装 My T �
 
 截图使用演示数据，不包含真实用户的位置、VIN、服务器地址或凭证。
 
-当前 App 提交状态请看[功能可用性说明](docs/FEATURE_AVAILABILITY.md)；3.32 文案仅作为历史版本记录保留。
+公开版与预发布功能边界请看[功能可用性说明](docs/FEATURE_AVAILABILITY.md)；3.32 文案仅作为历史版本记录保留。
 
 ## 使用条件
 

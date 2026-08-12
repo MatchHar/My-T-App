@@ -2,6 +2,16 @@
 
 ## Unreleased
 
+- Replaced stale App Review predictions with verifiable public truth: Apple’s
+  listing was checked on August 12, 2026 and currently offers My T 3.10.
+- Explicitly separated public App Store capabilities from newer pre-release
+  documentation and verified the latest Companion release as 1.10.16.
+- Restored the required `links` CI check with local Markdown validation and
+  signed-out checks of the public App Store, Companion, website, privacy, and
+  support endpoints.
+
+## Historical documentation updates
+
 - Updated public product status and all three language entry pages for the My T
   4.01.1 App Review submission.
 - Replaced hard-coded “current Companion version” text with GitHub's permanent
@@ -12,7 +22,7 @@
   security, climate and charging activity plus departure, progress and arrival
   updates for destination trips.
 - Corrected the recommended Companion release from 1.10.2 to the verified
-  latest stable **1.10.7**, added its navigation-session capabilities, and
+  then-current stable **1.10.7**, added its navigation-session capabilities, and
   linked directly to the matching GitHub Release.
 - Made the relationship bidirectional: My-T-App links to the exact Companion
   release while Companion links back to My-T-App availability and setup docs.
