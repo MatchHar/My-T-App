@@ -1,13 +1,13 @@
 # Compatibility
 
-Last verified: **2026-08-12**
+Last verified: **2026-08-14**
 
 | Component | Verified state | Notes |
 | --- | --- | --- |
 | My T | Public App Store **3.10**, iPhone, iOS 18+ | Verified against Apple’s public listing. Newer development capabilities remain pre-release until that listing changes. iPad is not a documented target. |
 | TeslaMateAPI | `1.25.0` | Main TeslaMate data interface |
 | TeslaMate | `4.0.1` on the validation server | Vehicle data reaches My T through TeslaMateAPI |
-| My T Companion | [latest stable release](https://github.com/MatchHar/My-T-Companion/releases/latest), verified as **1.10.16** | Compatibility is negotiated through `/api/v1/capabilities`, not an exact version string. Use the latest stable release for long-term parking history, verified trajectories, destination-trip sessions, Live Activities and software notifications. |
+| My T Companion | [latest stable release](https://github.com/MatchHar/My-T-Companion/releases/latest), verified as **1.10.19** | Compatibility is negotiated through `/api/v1/capabilities`, not an exact version string. Use the latest stable release for long-term parking history, verified trajectories, destination-trip sessions, Live Activities and software notifications. |
 | Authentication | None only on a trusted LAN/VPN; Basic; Bearer; Cloudflare Access | Public HTTP without authentication is unsupported |
 | Network | LAN, Tailscale/VPN, HTTPS reverse proxy, Cloudflare Tunnel | API root URL required |
 

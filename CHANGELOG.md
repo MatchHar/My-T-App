@@ -5,7 +5,8 @@
 - Replaced stale App Review predictions with verifiable public truth: Apple’s
   listing was checked on August 12, 2026 and currently offers My T 3.10.
 - Explicitly separated public App Store capabilities from newer pre-release
-  documentation and verified the latest Companion release as 1.10.16.
+  documentation and reverified the latest Companion release as 1.10.19 on
+  August 14, 2026.
 - Restored the required `links` CI check with local Markdown validation and
   signed-out checks of the public App Store, Companion, website, privacy, and
   support endpoints.
