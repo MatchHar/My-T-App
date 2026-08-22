@@ -13,7 +13,7 @@
 [技术支持](SUPPORT.md) ·
 [隐私说明](PRIVACY.md)
 
-> **公开版本：** 已于 2026 年 8 月 12 日核对 Apple 公开页面，目前 App Store
+> **公开版本：** 已于 2026 年 8 月 22 日核对 Apple 公开页面，目前 App Store
 > 可下载版本为 **My T 3.10**。本文档不预测审核状态；实际可下载版本以 App Store
 > 页面为准。Companion 按能力协商兼容，请使用
 > [My T Companion 最新稳定版](https://github.com/MatchHar/My-T-Companion/releases/latest)，
@@ -48,10 +48,11 @@ TeslaMate，再安装 TeslaMateAPI、连接 My T，最后按需要选装 My T �
 
 ## My T 可以做什么
 
-- 查看车辆状态、电量、额定续航、位置和停车时长。
-- 将行程整理为可搜索历史、统计、每日时间线和动态路线回放。
-- 查看充电记录、电量、费用、充电曲线与趋势。
-- 在服务器保存了真实数据时显示车辆实时位置及正在行驶信息。
+- 查看电量、续航、总里程、锁车状态、胎压、位置、软件更新，以及数据源提供的车门和四扇车窗状态。
+- 将行程和停车整理为按日期分组的历史与综合时间线，并显示单次行程效率和更多遥测数据。
+- 驾驶统计提供里程趋势、温度、常用目的地与工作日对比，并可沿道路动态回放行程。
+- 查看充电电量、费用、实时充电遥测、续航增加速度，以及仅根据符合条件的数据计算的电池健康趋势。
+- 数据服务支持时，提供寻车地图、真实行驶数据、目的地进度、预计到达时间与到达信息。
 - 支持多个自建 TeslaMate 连接和多辆车。
 - 也可将 Tessie 作为另一种独立数据源。
 - 连接凭证保存在 iOS Keychain。
@@ -97,14 +98,16 @@ TeslaMate，再安装 TeslaMateAPI、连接 My T，最后按需要选装 My T �
 ## 界面预览
 
 <p>
-  <img src="docs/images/zh-Hans/01-vehicle-at-a-glance.png" width="12%" alt="车辆概览与软件通知">
-  <img src="docs/images/zh-Hans/02-parking-timeline.png" width="12%" alt="停车增强时间线">
-  <img src="docs/images/zh-Hans/03-charging.png" width="12%" alt="充电分析与锁屏实时活动">
-  <img src="docs/images/zh-Hans/04-live-navigation.png" width="12%" alt="有目的地实时导航">
-  <img src="docs/images/zh-Hans/05-drive-replay.png" width="12%" alt="行程回放与遥测">
-  <img src="docs/images/zh-Hans/06-battery-trends.png" width="12%" alt="电池健康趋势">
-  <img src="docs/images/zh-Hans/07-trip-notifications.png" width="12%" alt="行程出发与到达通知">
-  <img src="docs/images/zh-Hans/08-self-hosting.png" width="12%" alt="私有自建服务器连接">
+  <img src="docs/images/zh-Hans/01-overview-san-francisco.png" width="9%" alt="带演示位置的车辆概览">
+  <img src="docs/images/zh-Hans/02-drives.png" width="9%" alt="按日期分组的行驶记录">
+  <img src="docs/images/zh-Hans/03-charge-detail.png" width="9%" alt="充电详情与遥测数据">
+  <img src="docs/images/zh-Hans/04-vehicle-safety.png" width="9%" alt="车门、车窗与车辆安全状态">
+  <img src="docs/images/zh-Hans/05-drive-stats.png" width="9%" alt="驾驶统计仪表盘">
+  <img src="docs/images/zh-Hans/06-drive-replay.png" width="9%" alt="沿道路的行程回放">
+  <img src="docs/images/zh-Hans/07-battery-health.png" width="9%" alt="电池健康趋势">
+  <img src="docs/images/zh-Hans/08-parking-detail.png" width="9%" alt="停车活动详情">
+  <img src="docs/images/zh-Hans/09-navigation-map.png" width="9%" alt="目的地导航地图">
+  <img src="docs/images/zh-Hans/10-connections.png" width="9%" alt="私有连接管理">
 </p>
 
 截图使用演示数据，不包含真实用户的位置、VIN、服务器地址或凭证。

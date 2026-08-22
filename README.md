@@ -14,7 +14,7 @@ your own TeslaMate server.**
 [Support](SUPPORT.md) ·
 [Privacy](PRIVACY.md)
 
-> **Public release:** Apple’s public listing was verified on August 12, 2026 and
+> **Public release:** Apple’s public listing was verified on August 22, 2026 and
 > currently offers **My T 3.10**. This page does not predict App Review status;
 > the App Store listing is the source of truth for downloadable availability.
 > Companion compatibility is capability-based; use the
@@ -54,12 +54,16 @@ connect My T, and only afterward consider the optional My T Companion.
 
 ## What My T does
 
-- Presents vehicle status, battery, rated range, location, and parking duration.
-- Organizes drives into searchable history, statistics, daily timelines, and
-  animated route replay.
-- Shows charging sessions, energy, cost, charging curves, and related trends.
-- Supports live vehicle location and genuine active-drive data when the server
-  has recorded it.
+- Presents battery, range, odometer, lock state, tire pressure, location,
+  software-update status, and individual door/window state when available.
+- Organizes drives and parking into date-grouped history and a combined
+  timeline, with per-drive efficiency and richer telemetry.
+- Adds Drive Statistics for mileage trends, temperature, common destinations,
+  and weekday comparisons, plus road-following animated route replay.
+- Shows charging sessions, energy, cost, live charge telemetry, range-gain
+  rate, and battery-health trends based on qualifying recorded data.
+- Supports find-car maps, genuine active-drive data, destination progress,
+  ETA, and arrival information when the configured service provides them.
 - Supports multiple self-hosted TeslaMate connections and multiple vehicles.
 - Also supports Tessie as a separate optional data source.
 - Stores connection credentials in the iOS Keychain.
@@ -112,14 +116,16 @@ the two public repositories describe one compatible release path.
 ## Screenshots
 
 <p>
-  <img src="docs/images/en/01-vehicle-at-a-glance.png" width="12%" alt="Vehicle overview and software notification">
-  <img src="docs/images/en/02-parking-timeline.png" width="12%" alt="Enhanced parking timeline">
-  <img src="docs/images/en/03-charging.png" width="12%" alt="Charging analysis and Lock Screen Live Activity">
-  <img src="docs/images/en/04-live-navigation.png" width="12%" alt="Live destination navigation">
-  <img src="docs/images/en/05-drive-replay.png" width="12%" alt="Drive replay and telemetry">
-  <img src="docs/images/en/06-battery-trends.png" width="12%" alt="Battery health trends">
-  <img src="docs/images/en/07-trip-notifications.png" width="12%" alt="Trip departure and arrival notifications">
-  <img src="docs/images/en/08-self-hosting.png" width="12%" alt="Private self-hosted connection">
+  <img src="docs/images/en/01-overview-san-francisco.png" width="9%" alt="Vehicle overview with demonstration location">
+  <img src="docs/images/en/02-drives.png" width="9%" alt="Date-grouped drive history">
+  <img src="docs/images/en/03-charge-detail.png" width="9%" alt="Charging detail and telemetry">
+  <img src="docs/images/en/04-vehicle-safety.png" width="9%" alt="Doors, windows, and vehicle safety state">
+  <img src="docs/images/en/05-drive-stats.png" width="9%" alt="Drive Statistics dashboard">
+  <img src="docs/images/en/06-drive-replay.png" width="9%" alt="Road-following drive replay">
+  <img src="docs/images/en/07-battery-health.png" width="9%" alt="Battery health trends">
+  <img src="docs/images/en/08-parking-detail.png" width="9%" alt="Detailed parking activity">
+  <img src="docs/images/en/09-navigation-map.png" width="9%" alt="Destination navigation map">
+  <img src="docs/images/en/10-connections.png" width="9%" alt="Private connection management">
 </p>
 
 Screenshots use demonstration data and do not show a real user's vehicle

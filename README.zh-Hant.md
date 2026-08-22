@@ -13,7 +13,7 @@
 [技術支援](SUPPORT.md) ·
 [隱私說明](PRIVACY.md)
 
-> **公開版本：** 已於 2026 年 8 月 12 日核對 Apple 公開頁面，目前 App Store
+> **公開版本：** 已於 2026 年 8 月 22 日核對 Apple 公開頁面，目前 App Store
 > 可下載版本為 **My T 3.10**。本文件不預測審查狀態；實際可下載版本以 App Store
 > 頁面為準。Companion 按能力協商相容，請使用
 > [My T Companion 最新穩定版](https://github.com/MatchHar/My-T-Companion/releases/latest)，
@@ -48,10 +48,11 @@ TeslaMate，再安裝 TeslaMateAPI、連線 My T，最後按需要選裝 My T �
 
 ## My T 可以做什麼
 
-- 查看車輛狀態、電量、額定續航、位置及停車時長。
-- 將行程整理為可搜尋歷史、統計、每日時間線及動態路線回放。
-- 查看充電記錄、電量、費用、充電曲線及趨勢。
-- 在伺服器儲存了真實資料時顯示車輛即時位置及正在行駛資訊。
+- 檢視電量、續航、總里程、上鎖狀態、胎壓、位置、軟體更新，以及資料來源提供的車門與四扇車窗狀態。
+- 將行程與停車整理為依日期分組的紀錄與綜合時間軸，並顯示單次行程效率與更多遙測資料。
+- 駕駛統計提供里程趨勢、溫度、常用目的地與平日／週末比較，並可沿道路動態重播行程。
+- 檢視充電電量、費用、即時充電遙測、續航增加速度，以及只依符合條件資料計算的電池健康趨勢。
+- 資料服務支援時，提供尋車地圖、真實行駛資料、目的地進度、預計抵達時間與抵達資訊。
 - 支援多個自建 TeslaMate 連線及多輛車。
 - 亦可將 Tessie 作為另一種獨立資料來源。
 - 連線憑證儲存於 iOS Keychain。
@@ -97,14 +98,16 @@ My T 基本功能仍可正常使用。Companion 亦會連結回本倉庫的 App 
 ## 介面預覽
 
 <p>
-  <img src="docs/images/zh-Hant/01-vehicle-at-a-glance.png" width="12%" alt="車輛概覽與軟體通知">
-  <img src="docs/images/zh-Hant/02-parking-timeline.png" width="12%" alt="停車增強時間軸">
-  <img src="docs/images/zh-Hant/03-charging.png" width="12%" alt="充電分析與鎖定畫面即時動態">
-  <img src="docs/images/zh-Hant/04-live-navigation.png" width="12%" alt="有目的地即時導航">
-  <img src="docs/images/zh-Hant/05-drive-replay.png" width="12%" alt="行程回放與遙測">
-  <img src="docs/images/zh-Hant/06-battery-trends.png" width="12%" alt="電池健康趨勢">
-  <img src="docs/images/zh-Hant/07-trip-notifications.png" width="12%" alt="行程出發與到達通知">
-  <img src="docs/images/zh-Hant/08-self-hosting.png" width="12%" alt="私有自建伺服器連線">
+  <img src="docs/images/zh-Hant/01-overview-san-francisco.png" width="9%" alt="含示範位置的車輛概覽">
+  <img src="docs/images/zh-Hant/02-drives.png" width="9%" alt="依日期分組的行駛紀錄">
+  <img src="docs/images/zh-Hant/03-charge-detail.png" width="9%" alt="充電詳細資料與遙測">
+  <img src="docs/images/zh-Hant/04-vehicle-safety.png" width="9%" alt="車門、車窗與車輛安全狀態">
+  <img src="docs/images/zh-Hant/05-drive-stats.png" width="9%" alt="駕駛統計儀表板">
+  <img src="docs/images/zh-Hant/06-drive-replay.png" width="9%" alt="沿道路的行程重播">
+  <img src="docs/images/zh-Hant/07-battery-health.png" width="9%" alt="電池健康趨勢">
+  <img src="docs/images/zh-Hant/08-parking-detail.png" width="9%" alt="停車活動詳細資料">
+  <img src="docs/images/zh-Hant/09-navigation-map.png" width="9%" alt="目的地導航地圖">
+  <img src="docs/images/zh-Hant/10-connections.png" width="9%" alt="私人連線管理">
 </p>
 
 截圖使用示範資料，不包含真實使用者的位置、VIN、伺服器位址或憑證。
