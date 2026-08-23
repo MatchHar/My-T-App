@@ -1,5 +1,7 @@
 # Security policy
 
+[English](SECURITY.md) · [简体中文](SECURITY.zh-Hans.md) · [繁體中文](SECURITY.zh-Hant.md)
+
 ## Scope
 
 Security reports may cover My T's documented server connection behavior,

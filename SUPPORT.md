@@ -1,5 +1,7 @@
 # Support
 
+[English](SUPPORT.md) · [简体中文](SUPPORT.zh-Hans.md) · [繁體中文](SUPPORT.zh-Hant.md)
+
 ## Before opening an issue
 
 1. Confirm TeslaMate is collecting the expected vehicle.
@@ -36,7 +38,7 @@ Do not provide:
 - Security problem: follow [SECURITY.md](SECURITY.md); do not create a public
   issue.
 - App Store/privacy/support request:
-  [official My T support](https://my-tesla.app/support/).
+  [official My T support](https://my-tesla.app/support/en/).
 - TeslaMate or TeslaMateAPI upstream problem: use the respective upstream
   project after confirming the issue is not specific to My T.
 

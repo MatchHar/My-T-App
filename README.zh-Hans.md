@@ -10,17 +10,19 @@
 
 [前往 App Store 下载 My T](https://apps.apple.com/us/app/my-t/id6780299502) ·
 [部署指南](docs/SETUP.zh-Hans.md) ·
-[技术支持](SUPPORT.md) ·
-[隐私说明](PRIVACY.md)
+[技术支持](SUPPORT.zh-Hans.md) ·
+[隐私说明](PRIVACY.zh-Hans.md)
 
-> **公开版本：** 已于 2026 年 8 月 22 日核对 Apple 公开页面，目前 App Store
-> 可下载版本为 **My T 3.10**。本文档不预测审核状态；实际可下载版本以 App Store
-> 页面为准。Companion 按能力协商兼容，请使用
+> **公开版本：** 实际可下载版本始终以
+> [Apple App Store 产品页](https://apps.apple.com/us/app/my-t/id6780299502)为准。
+> 版本徽章与[自动生成的公开版本记录](docs/app-store-release.json)会从 Apple
+> 公开查询接口同步，因此本文档不再写死版本号，也不预测非公开审核状态。Companion 按能力协商兼容，请使用
 > [My T Companion 最新稳定版](https://github.com/MatchHar/My-T-Companion/releases/latest)，
 > 用于增强停车历史、真实轨迹，以及安全配对后的可选实时活动与软件通知。详情请看
 > [功能可用性说明](docs/FEATURE_AVAILABILITY.md)。
 
 [![Companion 最新版本](https://img.shields.io/github/v/release/MatchHar/My-T-Companion?display_name=tag&sort=semver)](https://github.com/MatchHar/My-T-Companion/releases/latest)
+[![App Store 版本](https://img.shields.io/itunes/v/6780299502?label=App%20Store)](https://apps.apple.com/us/app/my-t/id6780299502)
 
 本仓库只包含公开的产品介绍、部署文档和支持资料，**不包含 My T App
 源代码**。
@@ -53,6 +55,7 @@ TeslaMate，再安装 TeslaMateAPI、连接 My T，最后按需要选装 My T �
 - 驾驶统计提供里程趋势、温度、常用目的地与工作日对比，并可沿道路动态回放行程。
 - 查看充电电量、费用、实时充电遥测、续航增加速度，以及仅根据符合条件的数据计算的电池健康趋势。
 - 数据服务支持时，提供寻车地图、真实行驶数据、目的地进度、预计到达时间与到达信息。
+- 可选择在车辆锁好且车内无人时显示通知。每台 iPhone 独立选择通知声音；导入的音频与文件名只保存在该手机，不会发送给 Companion 或推送中继。
 - 支持多个自建 TeslaMate 连接和多辆车。
 - 也可将 Tessie 作为另一种独立数据源。
 - 连接凭证保存在 iOS Keychain。
@@ -142,7 +145,7 @@ My T 当前已验证 TeslaMateAPI `1.25.0`。上游项目升级后兼容性可�
 My T 不运营车辆历史数据库。车辆数据仍保存在用户选择的自建服务器或服务商，
 App 直接从已配置的数据源读取。只有用户主动启用的软件通知或实时活动会使用
 推送中继，并且只发送完成通知投递所需的最少数据；详见
-[PRIVACY.md](PRIVACY.md)。
+[PRIVACY.zh-Hans.md](PRIVACY.zh-Hans.md)。
 
 ## 独立项目声明
 
@@ -154,7 +157,7 @@ My T 是独立第三方应用，与 Tesla, Inc.、TeslaMate 项目及 TeslaMateA
 - App 源代码、签名材料、内部构建文件和私人基础设施不会公开。
 - 请勿在 Issue 中提交 API Token、密码、Cloudflare Secret、VIN、坐标、
   `.env`、原始日志或数据库导出。
-- 安全问题请按照 [SECURITY.md](SECURITY.md) 私下报告。
+- 安全问题请按照 [SECURITY.zh-Hans.md](SECURITY.zh-Hans.md) 私下报告。
 - 文档贡献请遵循 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 Copyright © 2026 My T。文档与产品素材使用条款见 [LICENSE.md](LICENSE.md)。

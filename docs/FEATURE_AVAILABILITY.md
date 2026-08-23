@@ -6,7 +6,7 @@ Last verified: 2026-08-22
 
 | Channel | Verified version | Availability |
 | --- | --- | --- |
-| **Public App Store** | **My T 3.10** | Downloadable from Apple’s public listing. The listing, not an internal review note, is the source of truth for public availability. |
+| **Public App Store** | [Current Apple listing](https://apps.apple.com/us/app/my-t/id6780299502) | Downloadable availability comes from Apple. The [generated public record](app-store-release.json), not an internal review note, supplies the current version. |
 | **Pre-release development** | Newer builds | Screenshots and documentation may describe capabilities still being validated for a later App Store release. They are not represented as publicly downloadable until Apple’s listing changes. |
 | **My T Companion** | [latest stable release](https://github.com/MatchHar/My-T-Companion/releases/latest) | My T discovers capabilities at `/api/v1/capabilities`; compatibility does not depend on a hard-coded version alone. |
 
@@ -23,7 +23,7 @@ is completed.
 
 | 渠道 | 已核对版本 | 可用状态 |
 | --- | --- | --- |
-| **App Store 公开版** | **My T 3.10** | 可从 Apple 公开页面下载。公开可用状态以 App Store 页面为准，不以内部审核记录为准。 |
+| **App Store 公开版** | [Apple 当前产品页](https://apps.apple.com/us/app/my-t/id6780299502) | 可下载状态以 Apple 为准；当前版本由[自动生成的公开记录](app-store-release.json)提供，不使用内部审核记录。 |
 | **预发布开发版** | 更新版本 | 截图和文档可能介绍仍在为后续 App Store 版本验证的能力；Apple 页面更新前，不会把这些能力描述成已公开下载。 |
 | **My T Companion** | [最新稳定版](https://github.com/MatchHar/My-T-Companion/releases/latest) | My T 通过 `/api/v1/capabilities` 发现能力；兼容性不只依赖写死的版本数字。 |
 
@@ -38,7 +38,7 @@ is completed.
 
 | 渠道 | 已核對版本 | 可用狀態 |
 | --- | --- | --- |
-| **App Store 公開版** | **My T 3.10** | 可從 Apple 公開頁面下載。公開可用狀態以 App Store 頁面為準，不以內部審查記錄為準。 |
+| **App Store 公開版** | [Apple 目前產品頁](https://apps.apple.com/us/app/my-t/id6780299502) | 可下載狀態以 Apple 為準；目前版本由[自動產生的公開記錄](app-store-release.json)提供，不使用內部審查記錄。 |
 | **預發佈開發版** | 更新版本 | 截圖及文件可能介紹仍在為後續 App Store 版本驗證的能力；Apple 頁面更新前，不會將這些能力描述為已公開下載。 |
 | **My T Companion** | [最新穩定版](https://github.com/MatchHar/My-T-Companion/releases/latest) | My T 透過 `/api/v1/capabilities` 探測能力；相容性不只依賴寫死的版本數字。 |
 

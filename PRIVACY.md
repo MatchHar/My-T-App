@@ -1,6 +1,8 @@
 # Privacy
 
-Last updated: 2026-08-09
+[English](PRIVACY.md) · [简体中文](PRIVACY.zh-Hans.md) · [繁體中文](PRIVACY.zh-Hant.md)
+
+Last updated: 2026-08-22
 
 The public privacy policy is available at
 [https://my-tesla.app/privacy/](https://my-tesla.app/privacy/).
@@ -27,6 +29,13 @@ configuration and credential copies may sync through the user's private iCloud
 account so their devices can restore the setup. Vehicle drives, charges, GPS
 history, and TeslaMate database contents are not copied into that configuration
 backup.
+
+When the user exports a `.mytconnection` file or explicitly copies a HostBox
+connection package, iOS transfers the selected connection data only through
+the share target or paste action chosen by the user. A URL handoff carries no
+password, bearer token, or Cloudflare secret. Connection files may contain the
+credentials the user chose to share and should be handled like a password;
+My T tests the imported endpoint before saving it to Keychain.
 
 ## Optional My T Companion
 
@@ -100,6 +109,19 @@ notification feature does not affect parking, navigation, or other self-hosted
 features. This notification path is separate from normal vehicle-history
 access, which continues directly between the user's server and My T.
 
+## Optional locked-and-unoccupied notifications and sounds
+
+When enabled, Companion may send the minimum signed event needed to report
+that a selected vehicle was observed locked with no occupant. The notification
+contains a visible title and message. Sound selection is performed separately
+on each iPhone: bundled identifiers, imported audio, imported filenames, and a
+silent choice never leave that device. Imported files are converted into the
+App's private notification-sound storage and can be removed by the user.
+
+If registration removal cannot reach the relay immediately, My T keeps only a
+local retry marker and tries again later. This does not retain vehicle-event
+content or re-enable notifications.
+
 ## Public support
 
 Never submit credentials, server addresses, VINs, GPS coordinates, `.env`
@@ -107,4 +129,4 @@ files, database exports, screenshots containing private locations, or raw
 production logs to a public GitHub issue.
 
 Questions about the App Store privacy disclosure should use the
-[official support page](https://my-tesla.app/support/).
+[official support page](https://my-tesla.app/support/en/).

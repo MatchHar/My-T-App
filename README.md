@@ -14,9 +14,11 @@ your own TeslaMate server.**
 [Support](SUPPORT.md) ·
 [Privacy](PRIVACY.md)
 
-> **Public release:** Apple’s public listing was verified on August 22, 2026 and
-> currently offers **My T 3.10**. This page does not predict App Review status;
-> the App Store listing is the source of truth for downloadable availability.
+> **Public release:** [Apple’s App Store listing](https://apps.apple.com/us/app/my-t/id6780299502)
+> is the source of truth for the downloadable version. The badge and
+> [generated release record](docs/app-store-release.json) update from Apple’s
+> public lookup service, so this page does not hard-code a version or predict
+> private App Review status.
 > Companion compatibility is capability-based; use the
 > [latest stable My T Companion release](https://github.com/MatchHar/My-T-Companion/releases/latest)
 > for enhanced parking history, verified trajectories, optional Live
@@ -24,6 +26,7 @@ your own TeslaMate server.**
 > [feature availability](docs/FEATURE_AVAILABILITY.md).
 
 [![Latest Companion release](https://img.shields.io/github/v/release/MatchHar/My-T-Companion?display_name=tag&sort=semver)](https://github.com/MatchHar/My-T-Companion/releases/latest)
+[![App Store version](https://img.shields.io/itunes/v/6780299502?label=App%20Store)](https://apps.apple.com/us/app/my-t/id6780299502)
 
 This repository contains public product documentation and support material.
 **It does not contain the My T application source code.**
@@ -64,6 +67,9 @@ connect My T, and only afterward consider the optional My T Companion.
   rate, and battery-health trends based on qualifying recorded data.
 - Supports find-car maps, genuine active-drive data, destination progress,
   ETA, and arrival information when the configured service provides them.
+- Can optionally notify when a vehicle becomes locked and unoccupied. Every
+  iPhone chooses its own visible alert sound; imported audio and filenames stay
+  on that device and never go to Companion or the push relay.
 - Supports multiple self-hosted TeslaMate connections and multiple vehicles.
 - Also supports Tessie as a separate optional data source.
 - Stores connection credentials in the iOS Keychain.

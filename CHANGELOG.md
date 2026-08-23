@@ -2,11 +2,15 @@
 
 ## Unreleased
 
-- Replaced stale App Review predictions with verifiable public truth: Apple’s
-  listing was checked on August 12, 2026 and currently offers My T 3.10.
-- Explicitly separated public App Store capabilities from newer pre-release
-  documentation and reverified the latest Companion release as 1.10.19 on
-  August 14, 2026.
+- Replaced hard-coded My T App Store version text with an Apple-backed badge,
+  a generated release record, and a daily synchronization workflow.
+- Reverified Companion compatibility against the permanent latest-release link
+  on August 22, 2026; the current stable release at verification time was
+  1.10.28, while compatibility remains capability-based.
+- Added complete Simplified Chinese and Traditional Chinese privacy, support,
+  and security documents with locale-correct links.
+- Documented locked-and-unoccupied notifications, device-local imported sound
+  handling, `.mytconnection` sharing, and unregister retry behavior.
 - Restored the required `links` CI check with local Markdown validation and
   signed-out checks of the public App Store, Companion, website, privacy, and
   support endpoints.
