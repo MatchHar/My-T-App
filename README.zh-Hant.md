@@ -124,7 +124,7 @@ My T 基本功能仍可正常使用。Companion 亦會連結回本倉庫的 App 
 - iPhone 能透過可信區域網路、VPN/Tailscale，或帶驗證的 HTTPS 安全存取 API。
 
 My T 目前已驗證 TeslaMateAPI `1.25.0`。上游專案升級後相容性可能改變，修改
-伺服器版本前請查看附日期的[相容性說明](docs/COMPATIBILITY.md)。
+伺服器版本前請查看附日期的[相容性說明](docs/COMPATIBILITY.zh-Hant.md)。
 
 ## 開始使用
 

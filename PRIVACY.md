@@ -2,10 +2,10 @@
 
 [English](PRIVACY.md) · [简体中文](PRIVACY.zh-Hans.md) · [繁體中文](PRIVACY.zh-Hant.md)
 
-Last updated: 2026-08-22
+Last updated: 2026-08-23
 
 The public privacy policy is available at
-[https://my-tesla.app/privacy/](https://my-tesla.app/privacy/).
+[https://my-tesla.app/privacy/en/](https://my-tesla.app/privacy/en/).
 This file explains the self-hosted data path in practical terms.
 
 ## Vehicle data

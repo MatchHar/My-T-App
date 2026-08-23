@@ -1,20 +1,23 @@
 # Compatibility
 
-Last verified: **2026-08-22**
+[English](COMPATIBILITY.md) · [简体中文](COMPATIBILITY.zh-Hans.md) · [繁體中文](COMPATIBILITY.zh-Hant.md)
+
+Last verified: **2026-08-23**
 
 | Component | Verified state | Notes |
 | --- | --- | --- |
 | My T | [Current public App Store release](https://apps.apple.com/us/app/my-t/id6780299502), iPhone, iOS 18+ | The [generated release record](app-store-release.json) follows Apple automatically. Development capabilities remain pre-release until Apple publishes them. iPad is not a documented target. |
 | TeslaMateAPI | `1.25.0` | Main TeslaMate data interface |
-| TeslaMate | `4.0.1` on the validation server | Vehicle data reaches My T through TeslaMateAPI |
-| My T Companion | [latest stable release](https://github.com/MatchHar/My-T-Companion/releases/latest) | Compatibility is negotiated through `/api/v1/capabilities`, not an exact version string. Use the latest stable release for long-term parking history, verified trajectories, destination-trip sessions, Live Activities and software notifications. |
+| TeslaMate | `4.1.1` in the signed HostBox stable catalog | Vehicle data reaches My T through TeslaMateAPI. Upstream `4.2.0` remains outside the stable catalog until the complete My T path is validated. |
+| My T Companion | [HostBox signed stable catalog](https://raw.githubusercontent.com/MatchHar/My-T-Companion/main/hostbox/myt-stack.json) · [upstream latest release](https://github.com/MatchHar/My-T-Companion/releases/latest) | HostBox deploys only the catalog-pinned release and archive digest. Compatibility is also negotiated through `/api/v1/capabilities`, not a version string alone. |
 | Authentication | None only on a trusted LAN/VPN; Basic; Bearer; Cloudflare Access | Public HTTP without authentication is unsupported |
 | Network | LAN, Tailscale/VPN, HTTPS reverse proxy, Cloudflare Tunnel | API root URL required |
 
-The permanent Companion link above always resolves to GitHub's current stable
-release, so routine Companion releases do not require a documentation edit.
-Compatibility remains capability-based: My T enables an enhancement only when
-the server reports the required capability.
+The permanent links above discover both the signed deployment recommendation
+and GitHub's current upstream release without copying a version number into
+this document. A newer upstream release is not an automatic deployment
+recommendation: HostBox waits for catalog signing after end-to-end validation.
+My T also enables an enhancement only when the server reports its capability.
 
 This is a dated validation record, not a promise that every older or future
 upstream version is compatible. TeslaMate and TeslaMateAPI are independent

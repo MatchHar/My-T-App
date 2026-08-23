@@ -124,7 +124,7 @@ TeslaMate，再安装 TeslaMateAPI、连接 My T，最后按需要选装 My T �
 - iPhone 能通过可信局域网、VPN/Tailscale，或带认证的 HTTPS 安全访问 API。
 
 My T 当前已验证 TeslaMateAPI `1.25.0`。上游项目升级后兼容性可能变化，修改
-服务器版本前请查看带日期的[兼容性说明](docs/COMPATIBILITY.md)。
+服务器版本前请查看带日期的[兼容性说明](docs/COMPATIBILITY.zh-Hans.md)。
 
 ## 开始使用
 

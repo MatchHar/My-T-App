@@ -1,6 +1,19 @@
 # Documentation changelog
 
+[English](CHANGELOG.md) · [简体中文](CHANGELOG.zh-Hans.md) · [繁體中文](CHANGELOG.zh-Hant.md)
+
 ## Unreleased
+
+- Expanded the English, Simplified Chinese, and Taiwan Traditional Chinese
+  privacy documents to the same complete nine-section data-handling scope.
+- Added complete three-language compatibility records, dated August 23, 2026,
+  for TeslaMateAPI 1.25.0 and the signed HostBox TeslaMate 4.1.1 stable catalog;
+  upstream 4.2.0 remains outside stable deployment until end-to-end validation.
+- Added CI checks that prevent language-policy drift, mutable TeslaMateAPI
+  `latest` instructions, and fixed Companion release-tag links.
+- Replaced “always install upstream latest” wording with dynamic links to both
+  the signed HostBox recommendation and upstream latest release. Newer upstream
+  tags remain informational until end-to-end validation.
 
 - Replaced hard-coded My T App Store version text with an Apple-backed badge,
   a generated release record, and a daily synchronization workflow.
