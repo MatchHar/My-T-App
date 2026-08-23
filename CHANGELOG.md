@@ -6,9 +6,9 @@
 
 - Expanded the English, Simplified Chinese, and Taiwan Traditional Chinese
   privacy documents to the same complete nine-section data-handling scope.
-- Added complete three-language compatibility records, dated August 23, 2026,
-  for TeslaMateAPI 1.25.0 and the signed HostBox TeslaMate 4.1.1 stable catalog;
-  upstream 4.2.0 remains outside stable deployment until end-to-end validation.
+- Completed three-language end-to-end compatibility validation on August 23,
+  2026 for TeslaMate 4.2.0, TeslaMateAPI 1.25.0, and the signed HostBox
+  Companion 1.10.29 catalog target.
 - Added CI checks that prevent language-policy drift, mutable TeslaMateAPI
   `latest` instructions, and fixed Companion release-tag links.
 - Replaced “always install upstream latest” wording with dynamic links to both
@@ -17,9 +17,9 @@
 
 - Replaced hard-coded My T App Store version text with an Apple-backed badge,
   a generated release record, and a daily synchronization workflow.
-- Reverified Companion compatibility against the permanent latest-release link
-  on August 22, 2026; the current stable release at verification time was
-  1.10.28, while compatibility remains capability-based.
+- Reverified Companion compatibility against both the signed catalog and the
+  permanent latest-release link on August 23, 2026; the signed stable release
+  at verification time was 1.10.29, while compatibility remains capability-based.
 - Added complete Simplified Chinese and Traditional Chinese privacy, support,
   and security documents with locale-correct links.
 - Documented locked-and-unoccupied notifications, device-local imported sound

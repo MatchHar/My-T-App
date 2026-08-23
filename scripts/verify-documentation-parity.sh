@@ -31,7 +31,7 @@ done
 for file in "${compatibility_files[@]}"; do
   grep -q '2026-08-23' "$file" || { echo "$file has a stale validation date" >&2; exit 1; }
   grep -q 'TeslaMateAPI.*1.25.0' "$file" || { echo "$file omits TeslaMateAPI 1.25.0" >&2; exit 1; }
-  grep -q 'TeslaMate.*4.1.1' "$file" || { echo "$file omits the verified TeslaMate version" >&2; exit 1; }
+  grep -q 'TeslaMate.*4.2.0' "$file" || { echo "$file omits the verified TeslaMate version" >&2; exit 1; }
   grep -q 'releases/latest' "$file" || { echo "$file must use the permanent Companion release URL" >&2; exit 1; }
 done
 

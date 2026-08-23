@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | My T | [App Store 当前公开版本](https://apps.apple.com/us/app/my-t/id6780299502)，iPhone、iOS 18+ | [自动生成的发布记录](app-store-release.json)会跟随 Apple 的公开信息更新。Apple 正式发布之前，开发中的功能仍属于预发布内容。iPad 不是已承诺支持的目标。 |
 | TeslaMateAPI | `1.25.0` | My T 的主要 TeslaMate 数据接口 |
-| TeslaMate | HostBox 已签名稳定目录中的 `4.1.1` | 车辆数据通过 TeslaMateAPI 传给 My T。上游 `4.2.0` 在完整 My T 路径完成验证前，不会进入稳定目录。 |
+| TeslaMate | HostBox 已签名稳定目录中的 `4.2.0` | 车辆数据通过 TeslaMateAPI 传给 My T。4.2.0 在进入签名目录前已完成完整 My T 路径验证。 |
 | My T Companion | [HostBox 签名稳定目录](https://raw.githubusercontent.com/MatchHar/My-T-Companion/main/hostbox/myt-stack.json) · [上游最新版本](https://github.com/MatchHar/My-T-Companion/releases/latest) | HostBox 只部署目录中固定的版本及安装包摘要；兼容性还会通过 `/api/v1/capabilities` 协商，而不是只看版本号。 |
 | 认证 | 仅可信局域网／VPN 可使用无认证；也支持 Basic、Bearer、Cloudflare Access | 不支持无认证的公网 HTTP |
 | 网络 | 局域网、Tailscale／VPN、HTTPS 反向代理、Cloudflare Tunnel | 必须提供 API 根地址 |

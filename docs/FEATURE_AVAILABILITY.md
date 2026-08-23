@@ -1,6 +1,6 @@
 # Feature availability / 功能可用性
 
-Last verified: 2026-08-22
+Last verified: 2026-08-23
 
 ## English
 
