@@ -23,6 +23,9 @@
 
 [![Companion 最新版本](https://img.shields.io/github/v/release/MatchHar/My-T-Companion?display_name=tag&sort=semver)](https://github.com/MatchHar/My-T-Companion/releases/latest)
 [![App Store 版本](https://img.shields.io/itunes/v/6780299502?label=App%20Store)](https://apps.apple.com/us/app/my-t/id6780299502)
+[![HostBox App Store 版本](https://img.shields.io/itunes/v/6798103086?label=HostBox%20App%20Store)](https://apps.apple.com/us/app/hostbox/id6798103086)
+
+需要伺服器後端？可**[從 App Store 下載 HostBox](https://apps.apple.com/us/app/hostbox/id6798103086)**，直接在 iPhone 部署 My T Server；亦可查看 [HostBox 產品說明與上線影片](https://my-tesla.app/hostbox/zh-hant/)。
 
 本倉庫只包含公開的產品介紹、部署文件及支援資料，**不包含 My T App
 原始碼**。
@@ -37,16 +40,18 @@ My T 將 TeslaMate 儲存的資料整理成適合 iPhone 使用的概覽、可�
 充電分析、每日時間線、地圖及路線回放。My T 不會取代 TeslaMate，不會另外連線
 使用者的 Tesla 帳號，也不會將 TeslaMate 車輛歷史轉移至 My T 營運的雲端。
 
-三個專案分工不同：
+四個元件分工不同：
 
 | 元件 | 作用 |
 | --- | --- |
 | [TeslaMate](https://github.com/teslamate-org/teslamate) | 使用自建連線時的主要資料採集器及資料依據 |
 | [TeslaMateAPI](https://github.com/tobiasehlert/teslamateapi) | 將一般 TeslaMate 資料以 JSON 提供給 My T 的連線層 |
 | [My T 擴充服務](https://github.com/MatchHar/My-T-Companion) | 選裝的唯讀擴充：長期停車、真實行駛軌跡、充電／導航即時動態及車輛軟體通知 |
+| [HostBox](https://apps.apple.com/us/app/hostbox/id6798103086) | App Store 上的 iPhone 部署 App：在使用者自己的 VPS 安裝及維護 My T Server 堆疊 |
 
-新使用者應先依照 [TeslaMate 官方文件](https://docs.teslamate.org/) 部署並驗證
-TeslaMate，再安裝 TeslaMateAPI、連線 My T，最後按需要選裝 My T 擴充服務。
+新使用者可使用 [HostBox](https://my-tesla.app/hostbox/zh-hant/) 引導部署 VPS，
+或依照 [TeslaMate 官方文件](https://docs.teslamate.org/)自行部署並驗證，再連線
+My T，最後按需安裝尚未包含的 My T 擴充服務。
 
 ## My T 可以做什麼
 
