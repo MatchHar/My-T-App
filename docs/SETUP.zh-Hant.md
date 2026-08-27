@@ -7,6 +7,8 @@
 及 [TeslaMateAPI 上游倉庫](https://github.com/tobiasehlert/teslamateapi)
 為準，避免複製過時 Compose。
 
+> **VPS 引導部署：** [HostBox 已於 App Store 上線](https://apps.apple.com/us/app/hostbox/id6798103086)，可直接在 iPhone 安裝 My T Server 堆疊，並把測試過的一組 `base_url` + Token 交給 My T。詳情與上線影片請見 [HostBox 產品頁](https://my-tesla.app/hostbox/zh-hant/)；下方手動部署方式繼續受支援。
+
 ## 一、先確定存取方式
 
 | 場景 | 建議方式 | My T 位址範例 |
