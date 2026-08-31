@@ -19,7 +19,7 @@ for file in "${changelog_files[@]}"; do
   }
 done
 
-expected_privacy_sections=9
+expected_privacy_sections=10
 for file in "${privacy_files[@]}"; do
   count="$(grep -c '^## ' "$file")"
   test "$count" -eq "$expected_privacy_sections" || {
@@ -27,6 +27,37 @@ for file in "${privacy_files[@]}"; do
     exit 1
   }
 done
+
+grep -Fq 'every vehicle on that paired TeslaMate server' PRIVACY.md || {
+  echo "English privacy text must disclose all-vehicle notification scope" >&2
+  exit 1
+}
+grep -Fq '适用于该 iPhone 所配对 TeslaMate 服务器上的全部车辆' PRIVACY.zh-Hans.md || {
+  echo "Simplified Chinese privacy text must disclose all-vehicle notification scope" >&2
+  exit 1
+}
+grep -Fq '適用於該 iPhone 所配對 TeslaMate 伺服器上的全部車輛' PRIVACY.zh-Hant.md || {
+  echo "Traditional Chinese privacy text must disclose all-vehicle notification scope" >&2
+  exit 1
+}
+
+grep -Fq 'Optional parked low-battery notifications' PRIVACY.md || {
+  echo "English privacy text omits low-battery notifications" >&2
+  exit 1
+}
+grep -Fq '可选停车低电量通知' PRIVACY.zh-Hans.md || {
+  echo "Simplified Chinese privacy text omits low-battery notifications" >&2
+  exit 1
+}
+grep -Fq '選用停車低電量通知' PRIVACY.zh-Hant.md || {
+  echo "Traditional Chinese privacy text omits low-battery notifications" >&2
+  exit 1
+}
+
+if grep -nE 'selected vehicle was observed|指定车辆被观察到|指定車輛被觀察到' "${privacy_files[@]}"; then
+  echo "Selected-vehicle notification wording is forbidden; subscriptions are server-wide" >&2
+  exit 1
+fi
 
 for file in "${compatibility_files[@]}"; do
   grep -q '2026-08-23' "$file" || { echo "$file has a stale validation date" >&2; exit 1; }
