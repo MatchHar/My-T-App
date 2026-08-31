@@ -2,7 +2,7 @@
 
 [English](PRIVACY.md) · [简体中文](PRIVACY.zh-Hans.md) · [繁體中文](PRIVACY.zh-Hant.md)
 
-Last updated: 2026-08-23
+Last updated: 2026-08-30
 
 The public privacy policy is available at
 [https://my-tesla.app/privacy/en/](https://my-tesla.app/privacy/en/).
@@ -58,11 +58,28 @@ identifier needed to address that installation, optional charging/navigation
 push-to-start tokens, per-session Live Activity update tokens, locale, and
 created/last-active timestamps.
 
-The user's My T Companion sends only a signed software-update event: the
+For this notification type, the user's My T Companion sends only a signed software-update event: the
 opaque installation ID, TeslaMate car ID or display label, reported update
 type/version, and observation time. It does **not** send VIN, location,
 TeslaMate credentials, database passwords, battery data, routes, charging
 history, or driving history.
+
+## Optional parked low-battery notifications
+
+Each iPhone can enable this preference independently. When enabled, it applies
+to every vehicle on that paired TeslaMate server; the vehicle currently shown
+in My T does not filter delivery. Companion can report that a vehicle is
+parked, not driving or charging, and strictly below 20% battery, with one
+additional strictly-below-10% escalation before the episode rearms at 25%.
+
+The minimum signed event contains the opaque installation and source
+identifiers, the server-local car ID or display label, a battery episode ID,
+battery percentage, event type, and observation time. It does **not** contain
+VIN, location, routes, TeslaMate credentials, database passwords, charging
+history, or driving history. The relay processes this content only for
+immediate APNs delivery and does not persist it. Acknowledgement and the
+explicit four-hour snooze remain on the user's VPS, scoped to that iPhone,
+vehicle, and episode; this is not a continuous repeat-until-acknowledged alarm.
 
 ## Optional charging Live Activities
 
@@ -111,8 +128,10 @@ access, which continues directly between the user's server and My T.
 
 ## Optional locked-and-unoccupied notifications and sounds
 
-When enabled, Companion may send the minimum signed event needed to report
-that a selected vehicle was observed locked with no occupant. The notification
+When enabled on an iPhone, the preference applies to every vehicle on that
+paired TeslaMate server; the vehicle currently shown in My T does not filter
+delivery. Companion may send the minimum signed event needed to report that a
+vehicle was observed locked with no occupant. The notification
 contains a visible title and message. Sound selection is performed separately
 on each iPhone: bundled identifiers, imported audio, imported filenames, and a
 silent choice never leave that device. Imported files are converted into the
