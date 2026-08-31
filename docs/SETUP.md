@@ -7,7 +7,7 @@ This guide covers the My T-specific connection steps. Use the upstream
 and [TeslaMateAPI repository](https://github.com/tobiasehlert/teslamateapi) as
 the source of truth for their own installation files.
 
-> **Guided VPS option:** [HostBox is available on the App Store](https://apps.apple.com/us/app/hostbox/id6798103086). It installs the My T Server stack from iPhone and hands one tested `base_url` + Token to My T. See the [product guide and launch video](https://my-tesla.app/hostbox/en/). The manual path below remains supported.
+> **Guided VPS option:** [HostBox is available on the App Store](https://apps.apple.com/app/id6798103086). It installs the My T Server stack from iPhone and hands one tested `base_url` + Token to My T. See the [product guide and launch video](https://my-tesla.app/hostbox/en/). The manual path below remains supported.
 
 ## 1. Choose the topology first
 

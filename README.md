@@ -9,12 +9,12 @@
 **My T is an independent iPhone client for viewing and understanding data from
 your own TeslaMate server.**
 
-[Download My T on the App Store](https://apps.apple.com/us/app/my-t/id6780299502) ·
+[Download My T on the App Store](https://apps.apple.com/app/id6780299502) ·
 [Setup guide](docs/SETUP.md) ·
 [Support](SUPPORT.md) ·
 [Privacy](PRIVACY.md)
 
-> **Public release:** [Apple’s App Store listing](https://apps.apple.com/us/app/my-t/id6780299502)
+> **Public release:** [Apple’s App Store listing](https://apps.apple.com/app/id6780299502)
 > is the source of truth for the downloadable version. The badge and
 > [generated release record](docs/app-store-release.json) update from Apple’s
 > public lookup service, so this page does not hard-code a version or predict
@@ -26,10 +26,10 @@ your own TeslaMate server.**
 > [feature availability](docs/FEATURE_AVAILABILITY.md).
 
 [![Latest Companion release](https://img.shields.io/github/v/release/MatchHar/My-T-Companion?display_name=tag&sort=semver)](https://github.com/MatchHar/My-T-Companion/releases/latest)
-[![App Store version](https://img.shields.io/itunes/v/6780299502?label=App%20Store)](https://apps.apple.com/us/app/my-t/id6780299502)
-[![HostBox App Store version](https://img.shields.io/itunes/v/6798103086?label=HostBox%20App%20Store)](https://apps.apple.com/us/app/hostbox/id6798103086)
+[![App Store version](https://img.shields.io/itunes/v/6780299502?label=App%20Store)](https://apps.apple.com/app/id6780299502)
+[![HostBox App Store version](https://img.shields.io/itunes/v/6798103086?label=HostBox%20App%20Store)](https://apps.apple.com/app/id6798103086)
 
-Need a server backend? **[Download HostBox on the App Store](https://apps.apple.com/us/app/hostbox/id6798103086)** to deploy My T Server from iPhone, or read the [HostBox product guide and launch video](https://my-tesla.app/hostbox/en/).
+Need a server backend? **[Download HostBox on the App Store](https://apps.apple.com/app/id6798103086)** to deploy My T Server from iPhone, or read the [HostBox product guide and launch video](https://my-tesla.app/hostbox/en/).
 
 This repository contains public product documentation and support material.
 **It does not contain the My T application source code.**
@@ -53,7 +53,7 @@ The four components have different roles:
 | [TeslaMate](https://github.com/teslamate-org/teslamate) | Primary self-hosted data collector and source of truth |
 | [TeslaMateAPI](https://github.com/tobiasehlert/teslamateapi) | JSON bridge used by My T to read normal TeslaMate data |
 | [My T Companion](https://github.com/MatchHar/My-T-Companion) | Optional read-only enhancement for parking history, verified drive trajectories, charging/navigation Live Activities, and vehicle software notifications |
-| [HostBox](https://apps.apple.com/us/app/hostbox/id6798103086) | App Store iPhone deployment app for installing and maintaining the My T Server stack on a user-owned VPS |
+| [HostBox](https://apps.apple.com/app/id6798103086) | App Store iPhone deployment app for installing and maintaining the My T Server stack on a user-owned VPS |
 
 New users can use [HostBox](https://my-tesla.app/hostbox/en/) for a guided VPS
 deployment, or deploy and verify TeslaMate using its

@@ -68,7 +68,7 @@ My T 3.32 是一次全面升級：
 
 ## Public links
 
-- App Store: <https://apps.apple.com/us/app/my-t/id6780299502>
+- App Store: <https://apps.apple.com/app/id6780299502>
 - Product site: <https://my-tesla.app/>
 - Support: <https://my-tesla.app/support/>
 - Privacy Policy: <https://my-tesla.app/privacy/>

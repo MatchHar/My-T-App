@@ -35,7 +35,7 @@ print("Local Markdown links verified.")
 PY
 
 public_urls=(
-  "https://apps.apple.com/us/app/my-t/id6780299502"
+  "https://apps.apple.com/app/id6780299502"
   "https://github.com/MatchHar/My-T-Companion/releases/latest"
   "https://my-tesla.app/"
   "https://my-tesla.app/privacy/"

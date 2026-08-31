@@ -7,7 +7,7 @@
 及 [TeslaMateAPI 上游仓库](https://github.com/tobiasehlert/teslamateapi)
 为准，避免复制过期 Compose。
 
-> **VPS 引导部署：** [HostBox 已在 App Store 上线](https://apps.apple.com/us/app/hostbox/id6798103086)，可直接在 iPhone 安装 My T Server 栈，并把测试过的一组 `base_url` + Token 交给 My T。详情与上线视频见 [HostBox 产品页](https://my-tesla.app/hostbox/)；下方手动部署方式继续受支持。
+> **VPS 引导部署：** [HostBox 已在 App Store 上线](https://apps.apple.com/app/id6798103086)，可直接在 iPhone 安装 My T Server 栈，并把测试过的一组 `base_url` + Token 交给 My T。详情与上线视频见 [HostBox 产品页](https://my-tesla.app/hostbox/)；下方手动部署方式继续受支持。
 
 ## 一、先确定访问方式
 
