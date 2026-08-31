@@ -6,7 +6,7 @@ Last verified: **2026-08-23**
 
 | Component | Verified state | Notes |
 | --- | --- | --- |
-| My T | [Current public App Store release](https://apps.apple.com/us/app/my-t/id6780299502), iPhone, iOS 18+ | The [generated release record](app-store-release.json) follows Apple automatically. Development capabilities remain pre-release until Apple publishes them. iPad is not a documented target. |
+| My T | [Current public App Store release](https://apps.apple.com/app/id6780299502), iPhone, iOS 18+ | The [generated release record](app-store-release.json) follows Apple automatically. Development capabilities remain pre-release until Apple publishes them. iPad is not a documented target. |
 | TeslaMateAPI | `1.25.0` | Main TeslaMate data interface |
 | TeslaMate | `4.2.0` in the signed HostBox stable catalog | Vehicle data reaches My T through TeslaMateAPI. The complete My T path was validated before 4.2.0 entered the signed catalog. |
 | My T Companion | [HostBox signed stable catalog](https://raw.githubusercontent.com/MatchHar/My-T-Companion/main/hostbox/myt-stack.json) · [upstream latest release](https://github.com/MatchHar/My-T-Companion/releases/latest) | HostBox deploys only the catalog-pinned release and archive digest. Compatibility is also negotiated through `/api/v1/capabilities`, not a version string alone. |

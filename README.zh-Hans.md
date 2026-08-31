@@ -8,13 +8,13 @@
 
 **My T 是用于查看和理解用户自建 TeslaMate 数据的独立 iPhone 客户端。**
 
-[前往 App Store 下载 My T](https://apps.apple.com/us/app/my-t/id6780299502) ·
+[前往 App Store 下载 My T](https://apps.apple.com/app/id6780299502) ·
 [部署指南](docs/SETUP.zh-Hans.md) ·
 [技术支持](SUPPORT.zh-Hans.md) ·
 [隐私说明](PRIVACY.zh-Hans.md)
 
 > **公开版本：** 实际可下载版本始终以
-> [Apple App Store 产品页](https://apps.apple.com/us/app/my-t/id6780299502)为准。
+> [Apple App Store 产品页](https://apps.apple.com/app/id6780299502)为准。
 > 版本徽章与[自动生成的公开版本记录](docs/app-store-release.json)会从 Apple
 > 公开查询接口同步，因此本文档不再写死版本号，也不预测非公开审核状态。Companion 按能力协商兼容，请使用
 > [My T Companion 最新稳定版](https://github.com/MatchHar/My-T-Companion/releases/latest)，
@@ -22,10 +22,10 @@
 > [功能可用性说明](docs/FEATURE_AVAILABILITY.md)。
 
 [![Companion 最新版本](https://img.shields.io/github/v/release/MatchHar/My-T-Companion?display_name=tag&sort=semver)](https://github.com/MatchHar/My-T-Companion/releases/latest)
-[![App Store 版本](https://img.shields.io/itunes/v/6780299502?label=App%20Store)](https://apps.apple.com/us/app/my-t/id6780299502)
-[![HostBox App Store 版本](https://img.shields.io/itunes/v/6798103086?label=HostBox%20App%20Store)](https://apps.apple.com/us/app/hostbox/id6798103086)
+[![App Store 版本](https://img.shields.io/itunes/v/6780299502?label=App%20Store)](https://apps.apple.com/app/id6780299502)
+[![HostBox App Store 版本](https://img.shields.io/itunes/v/6798103086?label=HostBox%20App%20Store)](https://apps.apple.com/app/id6798103086)
 
-需要服务器后端？可**[从 App Store 下载 HostBox](https://apps.apple.com/us/app/hostbox/id6798103086)**，直接在 iPhone 部署 My T Server；也可查看 [HostBox 产品说明与上线视频](https://my-tesla.app/hostbox/)。
+需要服务器后端？可**[从 App Store 下载 HostBox](https://apps.apple.com/app/id6798103086)**，直接在 iPhone 部署 My T Server；也可查看 [HostBox 产品说明与上线视频](https://my-tesla.app/hostbox/)。
 
 本仓库只包含公开的产品介绍、部署文档和支持资料，**不包含 My T App
 源代码**。
@@ -47,7 +47,7 @@ My T 把 TeslaMate 保存的这些数据整理成适合 iPhone 使用的概览�
 | [TeslaMate](https://github.com/teslamate-org/teslamate) | 使用自建连接时的主要数据采集器和数据依据 |
 | [TeslaMateAPI](https://github.com/tobiasehlert/teslamateapi) | 将普通 TeslaMate 数据以 JSON 提供给 My T 的连接层 |
 | [My T 增强服务](https://github.com/MatchHar/My-T-Companion) | 选装的只读扩展：长期停车、真实行驶轨迹、充电/导航实时活动及车辆软件通知 |
-| [HostBox](https://apps.apple.com/us/app/hostbox/id6798103086) | App Store 上的 iPhone 部署 App：在用户自己的 VPS 安装与维护 My T Server 栈 |
+| [HostBox](https://apps.apple.com/app/id6798103086) | App Store 上的 iPhone 部署 App：在用户自己的 VPS 安装与维护 My T Server 栈 |
 
 新用户可使用 [HostBox](https://my-tesla.app/hostbox/) 引导部署 VPS，或按照
 [TeslaMate 官方文档](https://docs.teslamate.org/)自行部署并验证，再连接 My T，
