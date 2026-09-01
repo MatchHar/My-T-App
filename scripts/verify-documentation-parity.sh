@@ -28,16 +28,29 @@ for file in "${privacy_files[@]}"; do
   }
 done
 
-grep -Fq 'every vehicle on that paired TeslaMate server' PRIVACY.md || {
-  echo "English privacy text must disclose all-vehicle notification scope" >&2
+grep -Fq 'one set of notification defaults for every vehicle on the' PRIVACY.md || {
+  echo "English privacy text must disclose all-vehicle notification defaults" >&2
   exit 1
 }
-grep -Fq '适用于该 iPhone 所配对 TeslaMate 服务器上的全部车辆' PRIVACY.zh-Hans.md || {
-  echo "Simplified Chinese privacy text must disclose all-vehicle notification scope" >&2
+grep -Fq '全部车辆保存一组通知默认值' PRIVACY.zh-Hans.md || {
+  echo "Simplified Chinese privacy text must disclose all-vehicle notification defaults" >&2
   exit 1
 }
-grep -Fq '適用於該 iPhone 所配對 TeslaMate 伺服器上的全部車輛' PRIVACY.zh-Hant.md || {
-  echo "Traditional Chinese privacy text must disclose all-vehicle notification scope" >&2
+grep -Fq '所有車輛保存一組通知預設值' PRIVACY.zh-Hant.md || {
+  echo "Traditional Chinese privacy text must disclose all-vehicle notification defaults" >&2
+  exit 1
+}
+
+grep -Fq 'override for an individual vehicle' PRIVACY.md || {
+  echo "English privacy text must disclose individual-vehicle overrides" >&2
+  exit 1
+}
+grep -Fq '为单独车辆建立按类别的覆盖设置' PRIVACY.zh-Hans.md || {
+  echo "Simplified Chinese privacy text must disclose individual-vehicle overrides" >&2
+  exit 1
+}
+grep -Fq '為個別車輛建立分類覆寫設定' PRIVACY.zh-Hant.md || {
+  echo "Traditional Chinese privacy text must disclose individual-vehicle overrides" >&2
   exit 1
 }
 
