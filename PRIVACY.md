@@ -58,6 +58,15 @@ identifier needed to address that installation, optional charging/navigation
 push-to-start tokens, per-session Live Activity update tokens, locale, and
 created/last-active timestamps.
 
+Each iPhone keeps one set of notification defaults for every vehicle on the
+paired TeslaMate server. The user may optionally create a category-specific
+override for an individual vehicle, identified by that server's local car ID.
+The overridable categories are Lock Screen cards, destination-trip alerts,
+parked low-battery alerts, vehicle software-update alerts, and Lock Secure.
+Changing the vehicle currently displayed in My T does not change these
+notification choices. Alert sound remains an iPhone-level choice rather than a
+per-vehicle setting.
+
 For this notification type, the user's My T Companion sends only a signed software-update event: the
 opaque installation ID, TeslaMate car ID or display label, reported update
 type/version, and observation time. It does **not** send VIN, location,
@@ -66,9 +75,9 @@ history, or driving history.
 
 ## Optional parked low-battery notifications
 
-Each iPhone can enable this preference independently. When enabled, it applies
-to every vehicle on that paired TeslaMate server; the vehicle currently shown
-in My T does not filter delivery. Companion can report that a vehicle is
+Each iPhone can enable this preference independently as a server default and
+may override it for an individual vehicle. The vehicle currently shown in My T
+does not filter delivery. Companion can report that a vehicle is
 parked, not driving or charging, and strictly below 20% battery, with one
 additional strictly-below-10% escalation before the episode rearms at 25%.
 
@@ -128,9 +137,10 @@ access, which continues directly between the user's server and My T.
 
 ## Optional locked-and-unoccupied notifications and sounds
 
-When enabled on an iPhone, the preference applies to every vehicle on that
-paired TeslaMate server; the vehicle currently shown in My T does not filter
-delivery. Companion may send the minimum signed event needed to report that a
+When enabled on an iPhone, the preference follows that server's all-vehicle
+default unless the user creates an individual-vehicle override. The vehicle
+currently shown in My T does not filter delivery. Companion may send the
+minimum signed event needed to report that a
 vehicle was observed locked with no occupant. The notification
 contains a visible title and message. Sound selection is performed separately
 on each iPhone: bundled identifiers, imported audio, imported filenames, and a
