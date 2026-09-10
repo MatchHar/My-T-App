@@ -21,6 +21,10 @@
 > 用於增強停車歷史、真實軌跡，以及安全配對後的選用即時動態與軟體推播。詳情請參閱
 > [功能可用性說明](docs/FEATURE_AVAILABILITY.md)。
 
+**2026 年 9 月 10 日核對：5.32 已公開上架；6.01（620）已提交，正在等待審查。**
+以下 6.01 同行功能為預覽，不表示已經可以公開下載。之後的可用狀態請以 Apple
+產品頁為準。
+
 [![Companion 最新版本](https://img.shields.io/github/v/release/MatchHar/My-T-Companion?display_name=tag&sort=semver)](https://github.com/MatchHar/My-T-Companion/releases/latest)
 [![App Store 版本](https://img.shields.io/itunes/v/6780299502?label=App%20Store)](https://apps.apple.com/app/id6780299502)
 [![HostBox App Store 版本](https://img.shields.io/itunes/v/6798103086?label=HostBox%20App%20Store)](https://apps.apple.com/app/id6798103086)
@@ -64,6 +68,22 @@ My T，最後按需安裝尚未包含的 My T 擴充服務。
 - 支援多個自建 TeslaMate 連線及多輛車。
 - 亦可將 Tessie 作為另一種獨立資料來源。
 - 連線憑證儲存於 iOS Keychain。
+
+### 6.01 功能預覽：同行
+
+同行模式在同一張地圖顯示兩車的位置、已回報速度，以及從所選車輛前往另一輛車
+的**導航道路距離**。可切換兩車全覽、以我為主和查看對方，選擇正北向上或依車輛
+行駛方向顯示；有可用導航資料時顯示預計抵達資訊。前往移動車輛最近觀測位置的
+路線只是估計，不代表保證多久能追上對方。
+
+同一伺服器的兩車沿用既有授權連線；不同伺服器、不同 Tesla 帳號的朋友，可透過
+**朋友同行**傳送臨時邀請，並由雙方車主分別確認共享。雙方伺服器都需要啟用功能
+和獨立的安全共享入口。通知配對成功不等於朋友同行已經啟用。
+[共享範圍、部署要求與限制](docs/TOGETHER.md)。
+
+<p><img src="docs/images/zh-Hant/11-together-preview.png" width="300" alt="6.01 預覽：兩輛示範車與導航道路距離顯示在同一地圖"></p>
+
+此已確認的 6.01 預覽使用示範車輛和位置。
 
 ### 長期停車：逐個動作查看
 

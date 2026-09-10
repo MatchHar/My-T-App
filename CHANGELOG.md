@@ -4,6 +4,14 @@
 
 ## Unreleased
 
+- Verified public My T 5.32 and the separate 6.01 (620) Waiting for Review
+  snapshot on September 10, 2026. Added approved, localized Together previews
+  and three-language Friend Together setup, consent and privacy explanations.
+- Repaired the public-version schedule to propose only Apple's release JSON
+  through a pull request, explicitly run required documentation checks, and
+  request protected automatic merge instead of pushing directly to main.
+  Wrong-app, malformed, unchanged and backwards version responses are tested.
+
 - Expanded the English, Simplified Chinese, and Taiwan Traditional Chinese
   privacy documents to the same complete nine-section data-handling scope.
 - Completed three-language end-to-end compatibility validation on August 23,

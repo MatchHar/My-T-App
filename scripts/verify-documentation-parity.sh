@@ -19,7 +19,7 @@ for file in "${changelog_files[@]}"; do
   }
 done
 
-expected_privacy_sections=10
+expected_privacy_sections=11
 for file in "${privacy_files[@]}"; do
   count="$(grep -c '^## ' "$file")"
   test "$count" -eq "$expected_privacy_sections" || {

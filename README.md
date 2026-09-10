@@ -25,6 +25,11 @@ your own TeslaMate server.**
 > Activities, and software notifications after secure pairing. See
 > [feature availability](docs/FEATURE_AVAILABILITY.md).
 
+Verified on **September 10, 2026**: **5.32** is publicly available. **6.01 (620)**
+has been submitted and is **Waiting for Review**; its Together features below
+are a preview, not a claim that 6.01 is already downloadable. Check Apple's
+listing for subsequent availability changes.
+
 [![Latest Companion release](https://img.shields.io/github/v/release/MatchHar/My-T-Companion?display_name=tag&sort=semver)](https://github.com/MatchHar/My-T-Companion/releases/latest)
 [![App Store version](https://img.shields.io/itunes/v/6780299502?label=App%20Store)](https://apps.apple.com/app/id6780299502)
 [![HostBox App Store version](https://img.shields.io/itunes/v/6798103086?label=HostBox%20App%20Store)](https://apps.apple.com/app/id6798103086)
@@ -78,6 +83,25 @@ consider the optional My T Companion if it is not already included.
 - Supports multiple self-hosted TeslaMate connections and multiple vehicles.
 - Also supports Tessie as a separate optional data source.
 - Stores connection credentials in the iOS Keychain.
+
+### Preview in 6.01: travel together
+
+Together shows two vehicles on one map, with their reported speeds, positions,
+and the **driving-road distance** from your selected vehicle to the other.
+Switch between both cars, your car, and the other car; keep north up or follow
+a vehicle's heading. Navigation and arrival estimates appear when usable data
+is available. A route to a moving vehicle's last observed position is an
+estimate, not a promised catch-up time.
+
+For two cars on one server, use your existing authorized connection. For
+friends on different servers or Tesla accounts, **Friend Together** adds
+temporary invitations and separate approval from both owners. Each server
+must enable the feature and a dedicated secured sharing endpoint. Notification
+pairing alone does not enable it. [Sharing, setup, and limits](docs/TOGETHER.md).
+
+<p><img src="docs/images/en/11-together-preview.png" width="300" alt="6.01 preview: two demonstration cars and driving-road distance on one map"></p>
+
+This approved 6.01 preview uses demonstration vehicles and locations.
 
 ### Long-term parking, event by event
 
