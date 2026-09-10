@@ -25,3 +25,5 @@ secrets/
 private/
 GoogleService-Info.plist
 ExportOptions*.plist
+__pycache__/
+*.pyc
