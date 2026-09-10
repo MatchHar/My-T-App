@@ -65,7 +65,9 @@ class DocumentationContractTests(unittest.TestCase):
                     (".zh-Hans", "## 6.01 可选朋友同行共享"),
                     (".zh-Hant", "## 6.01 選用朋友同行共享")]
         for suffix, heading in sections:
-            self.assertIn(heading, (ROOT / f"PRIVACY{suffix}.md").read_text())
+            text = (ROOT / f"PRIVACY{suffix}.md").read_text()
+            self.assertIn(heading, text)
+            self.assertIn("Apple Maps", text)
 
 
 class ProtectedProposalTests(unittest.TestCase):

@@ -32,7 +32,9 @@ before invitations can be created.
 Precise location is required and may expose sensitive places. Navigation,
 battery and permitted trip trace are optional, initially off. Read the
 [privacy details](../PRIVACY.md#optional-friend-together-sharing-in-601).
-Sharing expires or can be stopped; restarting Companion ends an active v1
+The optional trace is bounded to recent post-consent points of the current
+drive, not an eight-hour history export. Closing the map alone does not stop
+sharing. Sharing expires or can be stopped; restarting Companion ends an active v1
 share. A new invitation is then required. Friend Together does not add
 background friend-tracking Lock Screen cards. Use a passenger for interaction
 while driving; keep attention on the road.
@@ -58,7 +60,8 @@ Companion。每位车主选择车辆和共享时长，发送邀请并确认指�
 必须报告已启用且就绪。
 
 精确位置是必需权限，可能暴露敏感地点；导航、电池和允许范围内的本次轨迹为
-默认关闭的可选权限。详见[隐私说明](../PRIVACY.zh-Hans.md)。共享会到期，也可
+默认关闭的可选权限。轨迹仅包含同意后本次行程的近期观测，不是八小时历史导出。
+详见[隐私说明](../PRIVACY.zh-Hans.md)。关闭地图本身不会停止共享；共享会到期，也可
 停止；Companion 重启会结束进行中的 v1 共享，之后需要新邀请。朋友同行不包含
 后台追踪朋友的锁屏卡片。驾驶时应由乘客操作，注意道路安全。
 
@@ -83,6 +86,7 @@ Companion。每位車主選擇車輛和共享時長，傳送邀請並確認指�
 必須回報已啟用且就緒。
 
 精確位置是必要權限，可能暴露敏感地點；導航、電池和允許範圍內的本次軌跡為
-預設關閉的選用權限。詳見[隱私說明](../PRIVACY.zh-Hant.md)。共享會到期，也可
+預設關閉的選用權限。軌跡僅包含同意後本次行程的近期觀測，不是八小時歷史匯出。
+詳見[隱私說明](../PRIVACY.zh-Hant.md)。關閉地圖本身不會停止共享；共享會到期，也可
 停止；Companion 重新啟動會結束進行中的 v1 共享，之後需要新邀請。朋友同行不含
 背景追蹤朋友的鎖定畫面卡片。駕駛時應由乘客操作，注意道路安全。

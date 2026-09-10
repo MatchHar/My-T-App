@@ -164,14 +164,16 @@ identify a place or person.
 The recipient's My T reads permitted observations directly from the owner's
 secured Companion endpoint. Tesla credentials, API credentials, VIN, the full
 vehicle database and unrelated past trips are not included. Continuous GPS
-and routes are not sent to the developer-operated push relay. A shared
+and routes are not sent to the developer-operated push relay. When the phone
+requests a driving route, its route endpoints are sent to Apple Maps. A shared
 invitation contains the sharing endpoint and a short-lived redemption secret;
 send it only to the intended person. Redeeming it does not disclose location
 before the owner's approval. A normal connection-export file is not a trip
 invitation and may contain broader credentials.
 
 Shares are bound to a device, expire after the selected duration (up to eight
-hours), and can be stopped. Sharing in the opposite direction requires its own
+hours), and can be stopped. Closing the map alone does not stop sharing.
+Sharing in the opposite direction requires its own
 approval. Companion keeps bounded authorization metadata, hashed secrets and
 revocation state on the owner's server; it does not write shared GPS into that
 authorization journal. An active v1 share ends when Companion restarts. If a
