@@ -16,9 +16,9 @@ your own TeslaMate server.**
 
 > **Public release:** [Apple’s App Store listing](https://apps.apple.com/app/id6780299502)
 > is the source of truth for the downloadable version. The badge and
-> [generated release record](docs/app-store-release.json) update from Apple’s
-> public lookup service, so this page does not hard-code a version or predict
-> private App Review status.
+> [generated release record](docs/app-store-release.json) track Apple’s public
+> releases. Dated observations below describe the version verified on that day;
+> they do not predict private App Review status.
 > Companion compatibility is capability-based; use the
 > [latest stable My T Companion release](https://github.com/MatchHar/My-T-Companion/releases/latest)
 > for enhanced parking history, verified trajectories, optional Live

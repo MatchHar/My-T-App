@@ -16,7 +16,7 @@
 > **公开版本：** 实际可下载版本始终以
 > [Apple App Store 产品页](https://apps.apple.com/app/id6780299502)为准。
 > 版本徽章与[自动生成的公开版本记录](docs/app-store-release.json)会从 Apple
-> 公开查询接口同步，因此本文档不再写死版本号，也不预测非公开审核状态。Companion 按能力协商兼容，请使用
+> 公开查询接口同步。下方带日期的记录只说明当天核对的版本，不预测非公开审核状态。Companion 按能力协商兼容，请使用
 > [My T Companion 最新稳定版](https://github.com/MatchHar/My-T-Companion/releases/latest)，
 > 用于增强停车历史、真实轨迹，以及安全配对后的可选实时活动与软件通知。详情请看
 > [功能可用性说明](docs/FEATURE_AVAILABILITY.md)。

@@ -16,7 +16,7 @@
 > **公開版本：** 實際可下載版本一律以
 > [Apple App Store 產品頁](https://apps.apple.com/app/id6780299502)為準。
 > 版本徽章及[自動產生的公開版本記錄](docs/app-store-release.json)會從 Apple
-> 公開查詢服務同步，因此本文件不再寫死版本號，也不預測非公開審查狀態。Companion 按能力協商相容，請使用
+> 公開查詢服務同步。下方附日期的記錄只說明當天核對的版本，不預測非公開審查狀態。Companion 按能力協商相容，請使用
 > [My T Companion 最新穩定版](https://github.com/MatchHar/My-T-Companion/releases/latest)，
 > 用於增強停車歷史、真實軌跡，以及安全配對後的選用即時動態與軟體推播。詳情請參閱
 > [功能可用性說明](docs/FEATURE_AVAILABILITY.md)。
