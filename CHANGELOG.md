@@ -2,7 +2,12 @@
 
 [English](CHANGELOG.md) · [简体中文](CHANGELOG.zh-Hans.md) · [繁體中文](CHANGELOG.zh-Hant.md)
 
-## Unreleased
+## Recent documentation updates
+
+- September 11, 2026: verified public My T 6.01 against Apple's lookup, updated
+  the generated release record and three-language availability/privacy copy,
+  and linked the localized promotional videos. Together is released; Friend
+  Together still requires each owner's enabled, secured Companion service.
 
 - Verified public My T 5.32 and the separate 6.01 (620) Waiting for Review
   snapshot on September 10, 2026. Added approved, localized Together previews

@@ -1,8 +1,15 @@
 # Together / 同行
 
-Verified September 10, 2026: these features belong to **6.01 (620), Waiting for
-Review**. Public App Store **5.32** remains a separate release. Check
-[availability](FEATURE_AVAILABILITY.md) and [Apple](https://apps.apple.com/app/id6780299502).
+Verified September 11, 2026: **My T 6.01 is publicly available**. Together is
+included in this release; Friend Together still requires enabled, secured
+Companion services for both owners. Check [availability](FEATURE_AVAILABILITY.md)
+and [Apple](https://apps.apple.com/app/id6780299502).
+
+2026 年 9 月 11 日核对：**My T 6.01 已公开上架**，包含同行；朋友同行仍需双方
+配置并启用安全的 Companion 共享服务。
+
+2026 年 9 月 11 日核對：**My T 6.01 已公開上架**，包含同行；朋友同行仍需雙方
+設定並啟用安全的 Companion 分享服務。
 
 ## English
 

@@ -25,10 +25,13 @@ your own TeslaMate server.**
 > Activities, and software notifications after secure pairing. See
 > [feature availability](docs/FEATURE_AVAILABILITY.md).
 
-Verified on **September 10, 2026**: **5.32** is publicly available. **6.01 (620)**
-has been submitted and is **Waiting for Review**; its Together features below
-are a preview, not a claim that 6.01 is already downloadable. Check Apple's
-listing for subsequent availability changes.
+Verified on **September 11, 2026**: **My T 6.01 is publicly available**.
+Apple reports a release timestamp of `2026-09-11T16:28:14Z`. Check Apple's
+listing and the generated record for subsequent public releases.
+
+<p><a href="https://www.my-tesla.app/en/#my-t-video"><img src="https://www.my-tesla.app/assets/promo/myt-6.01-en.jpg" width="220" alt="My T 6.01 promotional video"></a></p>
+
+[Watch the My T 6.01 promotional video](https://www.my-tesla.app/en/#my-t-video).
 
 [![Latest Companion release](https://img.shields.io/github/v/release/MatchHar/My-T-Companion?display_name=tag&sort=semver)](https://github.com/MatchHar/My-T-Companion/releases/latest)
 [![App Store version](https://img.shields.io/itunes/v/6780299502?label=App%20Store)](https://apps.apple.com/app/id6780299502)
@@ -84,7 +87,7 @@ consider the optional My T Companion if it is not already included.
 - Also supports Tessie as a separate optional data source.
 - Stores connection credentials in the iOS Keychain.
 
-### Preview in 6.01: travel together
+### New in 6.01: travel together
 
 Together shows two vehicles on one map, with their reported speeds, positions,
 and the **driving-road distance** from your selected vehicle to the other.
@@ -99,9 +102,9 @@ temporary invitations and separate approval from both owners. Each server
 must enable the feature and a dedicated secured sharing endpoint. Notification
 pairing alone does not enable it. [Sharing, setup, and limits](docs/TOGETHER.md).
 
-<p><img src="docs/images/en/11-together-preview.png" width="300" alt="6.01 preview: two demonstration cars and driving-road distance on one map"></p>
+<p><img src="docs/images/en/11-together-preview.png" width="300" alt="Together in 6.01: two demonstration cars and driving-road distance on one map"></p>
 
-This approved 6.01 preview uses demonstration vehicles and locations.
+This 6.01 product image uses demonstration vehicles and locations.
 
 ### Long-term parking, event by event
 
@@ -167,7 +170,7 @@ Screenshots use demonstration data and do not show a real user's vehicle
 location, VIN, server address, or credentials.
 
 See the [feature availability notice](docs/FEATURE_AVAILABILITY.md) for the
-public-versus-pre-release boundary; older 3.32 notes remain as release history.
+release status and server requirements; older 3.32 notes remain as release history.
 
 ## Requirements
 

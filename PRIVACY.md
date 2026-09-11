@@ -181,7 +181,7 @@ stop request cannot reach the server, the App shows confirmation pending until
 the server acknowledges it or expiry is verified. Stopping prevents future
 reads; it cannot erase screenshots or information the recipient already saved.
 
-6.01 is awaiting App Review as of September 10, 2026. See
+6.01 is publicly available as verified on September 11, 2026. See
 [Together availability and requirements](docs/TOGETHER.md).
 
 ## Public support

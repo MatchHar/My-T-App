@@ -21,9 +21,12 @@
 > 用于增强停车历史、真实轨迹，以及安全配对后的可选实时活动与软件通知。详情请看
 > [功能可用性说明](docs/FEATURE_AVAILABILITY.md)。
 
-**2026 年 9 月 10 日核对：5.32 已公开上架；6.01（620）已提交，正在等待审核。**
-以下 6.01 同行功能为预览，不表示已经可以公开下载。之后的可用状态请以 Apple
-产品页为准。
+**2026 年 9 月 11 日核对：My T 6.01 已公开上架。** Apple 报告的发布时间为
+`2026-09-11T16:28:14Z`。之后的公开版本请以 Apple 产品页和自动生成的记录为准。
+
+<p><a href="https://www.my-tesla.app/zh-hans/#my-t-video"><img src="https://www.my-tesla.app/assets/promo/myt-6.01-zh-hans.jpg" width="220" alt="My T 6.01 宣传视频"></a></p>
+
+[观看 My T 6.01 宣传视频](https://www.my-tesla.app/zh-hans/#my-t-video)。
 
 [![Companion 最新版本](https://img.shields.io/github/v/release/MatchHar/My-T-Companion?display_name=tag&sort=semver)](https://github.com/MatchHar/My-T-Companion/releases/latest)
 [![App Store 版本](https://img.shields.io/itunes/v/6780299502?label=App%20Store)](https://apps.apple.com/app/id6780299502)
@@ -69,7 +72,7 @@ My T 把 TeslaMate 保存的这些数据整理成适合 iPhone 使用的概览�
 - 也可将 Tessie 作为另一种独立数据源。
 - 连接凭证保存在 iOS Keychain。
 
-### 6.01 功能预览：同行
+### 6.01 新功能：同行
 
 同行模式在同一张地图显示两车的位置、已报告速度，以及从所选车辆前往另一辆车
 的**导航道路距离**。可切换两车全览、以我为主和查看对方，选择正北向上或按车辆
@@ -81,9 +84,9 @@ My T 把 TeslaMate 保存的这些数据整理成适合 iPhone 使用的概览�
 和独立的安全共享入口。通知配对成功不等于朋友同行已经启用。
 [共享范围、部署要求与限制](docs/TOGETHER.md)。
 
-<p><img src="docs/images/zh-Hans/11-together-preview.png" width="300" alt="6.01 预览：两辆演示车与导航道路距离显示在同一地图"></p>
+<p><img src="docs/images/zh-Hans/11-together-preview.png" width="300" alt="6.01 同行：两辆演示车与导航道路距离显示在同一地图"></p>
 
-此已确认的 6.01 预览使用演示车辆和位置。
+此 6.01 产品图片使用演示车辆和位置。
 
 ### 长期停车：逐个动作查看
 
