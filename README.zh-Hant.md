@@ -16,14 +16,17 @@
 > **公開版本：** 實際可下載版本一律以
 > [Apple App Store 產品頁](https://apps.apple.com/app/id6780299502)為準。
 > 版本徽章及[自動產生的公開版本記錄](docs/app-store-release.json)會從 Apple
-> 公開查詢服務同步，因此本文件不再寫死版本號，也不預測非公開審查狀態。Companion 按能力協商相容，請使用
+> 公開查詢服務同步。下方附日期的記錄只說明當天核對的版本，不預測非公開審查狀態。Companion 按能力協商相容，請使用
 > [My T Companion 最新穩定版](https://github.com/MatchHar/My-T-Companion/releases/latest)，
 > 用於增強停車歷史、真實軌跡，以及安全配對後的選用即時動態與軟體推播。詳情請參閱
 > [功能可用性說明](docs/FEATURE_AVAILABILITY.md)。
 
-**2026 年 9 月 10 日核對：5.32 已公開上架；6.01（620）已提交，正在等待審查。**
-以下 6.01 同行功能為預覽，不表示已經可以公開下載。之後的可用狀態請以 Apple
-產品頁為準。
+**2026 年 9 月 11 日核對：My T 6.01 已公開上架。** Apple 回報的發布時間為
+`2026-09-11T16:28:14Z`。之後的公開版本請以 Apple 產品頁和自動產生的記錄為準。
+
+<p><a href="https://www.my-tesla.app/zh-hant/#my-t-video"><img src="https://www.my-tesla.app/assets/promo/myt-6.01-zh-hant.jpg" width="220" alt="My T 6.01 宣傳影片"></a></p>
+
+[觀看 My T 6.01 宣傳影片](https://www.my-tesla.app/zh-hant/#my-t-video)。
 
 [![Companion 最新版本](https://img.shields.io/github/v/release/MatchHar/My-T-Companion?display_name=tag&sort=semver)](https://github.com/MatchHar/My-T-Companion/releases/latest)
 [![App Store 版本](https://img.shields.io/itunes/v/6780299502?label=App%20Store)](https://apps.apple.com/app/id6780299502)
@@ -69,7 +72,7 @@ My T，最後按需安裝尚未包含的 My T 擴充服務。
 - 亦可將 Tessie 作為另一種獨立資料來源。
 - 連線憑證儲存於 iOS Keychain。
 
-### 6.01 功能預覽：同行
+### 6.01 新功能：同行
 
 同行模式在同一張地圖顯示兩車的位置、已回報速度，以及從所選車輛前往另一輛車
 的**導航道路距離**。可切換兩車全覽、以我為主和查看對方，選擇正北向上或依車輛
@@ -81,9 +84,9 @@ My T，最後按需安裝尚未包含的 My T 擴充服務。
 和獨立的安全共享入口。通知配對成功不等於朋友同行已經啟用。
 [共享範圍、部署要求與限制](docs/TOGETHER.md)。
 
-<p><img src="docs/images/zh-Hant/11-together-preview.png" width="300" alt="6.01 預覽：兩輛示範車與導航道路距離顯示在同一地圖"></p>
+<p><img src="docs/images/zh-Hant/11-together-preview.png" width="300" alt="6.01 同行：兩輛示範車與導航道路距離顯示在同一地圖"></p>
 
-此已確認的 6.01 預覽使用示範車輛和位置。
+此 6.01 產品圖片使用示範車輛和位置。
 
 ### 長期停車：逐個動作查看
 

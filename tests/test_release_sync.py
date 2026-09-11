@@ -50,15 +50,18 @@ class AppleRecordTests(unittest.TestCase):
 
 
 class DocumentationContractTests(unittest.TestCase):
-    def test_each_preview_has_approved_local_asset_and_matching_language(self):
-        for suffix, locale in [("", "en"), (".zh-Hans", "zh-Hans"), (".zh-Hant", "zh-Hant")]:
+    def test_released_together_has_localized_assets_and_video_links(self):
+        for suffix, locale, status in [("", "en", "My T 6.01 is publicly available"),
+                                       (".zh-Hans", "zh-Hans", "My T 6.01 已公开上架"),
+                                       (".zh-Hant", "zh-Hant", "My T 6.01 已公開上架")]:
             text = (ROOT / f"README{suffix}.md").read_text()
             asset = f"docs/images/{locale}/11-together-preview.png"
             self.assertIn(asset, text)
             self.assertTrue((ROOT / asset).is_file())
-            self.assertIn("6.01", text)
-            self.assertIn("5.32", text)
-        self.assertIn("Waiting for Review", (ROOT / "README.md").read_text())
+            self.assertIn(status, text)
+            self.assertIn(f'https://www.my-tesla.app/{locale.lower()}/#my-t-video', text)
+            self.assertIn(f'myt-6.01-{locale.lower()}.jpg" width="220"', text)
+        self.assertNotIn("Waiting for Review", (ROOT / "README.md").read_text())
 
     def test_trilingual_privacy_contains_friend_sharing_section(self):
         sections = [("", "## Optional Friend Together sharing in 6.01"),
